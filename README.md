@@ -5,7 +5,7 @@
 
 vim-setup() {
 	rm -rf ~/.vim*
-	git clone git@github.com/zrts/vim.git ~/.vim
+	git clone --recursive -git@github.com/zrts/vim.git ~/.vim
 	mkdir -p ~/.vim/{bkp,sessions,swp}
 	ln -s ~/.vim/vimrc ~/.vimrc
 }

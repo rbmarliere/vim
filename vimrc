@@ -138,8 +138,6 @@ nnoremap <Leader>chtab :set tabstop=4 softtabstop=4 shiftwidth=4 smarttab expand
 " helpers
 nnoremap <Leader>v :tabe $MYVIMRC<CR>
 nnoremap <Leader>x :!chmod +x %<CR>
-" http://vim.wikia.com/wiki/Smart_mapping_for_tab_completion
-inoremap <tab> <c-r>=Smart_TabComplete()<CR>
 " https://gist.github.com/romainl/047aca21e338df7ccf771f96858edb86
 cnoremap <expr> <CR> CCR()
 
@@ -154,23 +152,6 @@ function! TestFunction()
 	let cmd="!clear && phpunit % --filter " . func
 	execute cmd
 	call search("\\%" . lnum . "l" . "\\%" . col .  "c")
-endfunction
-function! Smart_TabComplete()
-	let line = getline('.')                         " current line
-	let substr = strpart(line, -1, col('.')+1)      " from the start of the current line to one character right of the cursor
-	let substr = matchstr(substr, "[^ \t]*$")       " word till cursor
-	if (strlen(substr)==0)                          " nothing to match on empty string
-		return "\<tab>"
-	endif
-	let has_period = match(substr, '\.') != -1      " position of period, if any
-	let has_slash = match(substr, '\/') != -1       " position of slash, if any
-	if (!has_period && !has_slash)
-		return "\<C-X>\<C-P>"                         " existing text matching
-	elseif ( has_slash )
-		return "\<C-X>\<C-F>"                         " file matching
-	else
-		return "\<C-X>\<C-O>"                         " plugin matching
-	endif
 endfunction
 " make list-like commands more intuitive
 function! CCR()

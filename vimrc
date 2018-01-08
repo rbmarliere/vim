@@ -1,4 +1,5 @@
 " ------------GENERAL-
+set encoding=utf-8
 " https://superuser.com/questions/383457/how-to-fix-vim-textwidth-during-editing#383473
 set formatoptions+=aw
 " using pathogen as another submodule

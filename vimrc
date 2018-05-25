@@ -96,7 +96,8 @@ nnoremap <Leader>d :bd<CR>
 " saving buffers
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>W :wa<CR>
-cnoremap w!! w !sudo tee % >/dev/null
+nnoremap <Leader>W :w !sudo tee % > /dev/null<CR>
+"cnoremap w!! w !sudo tee % >/dev/null
 " tests
 nnoremap <Leader>t :!clear && phpunit 
 nnoremap <Leader>T :call TestFunction()<CR>

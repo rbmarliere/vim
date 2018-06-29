@@ -75,6 +75,7 @@ autocmd BufWinEnter .* silent loadview
 "set term=screen-256color
 set t_Co=256
 set background=dark
+highlight Visual       cterm=none ctermbg=green ctermfg=darkgrey
 highlight DiffAdd                 ctermbg=black ctermfg=green
 highlight DiffChange              ctermbg=black ctermfg=green
 highlight DiffDelete              ctermbg=black ctermfg=green

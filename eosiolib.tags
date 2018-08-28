@@ -1,0 +1,763 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTION	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	235;"	d
+ALIGNED	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^struct ALIGNED(checksum160) {$/;"	f
+ALIGNED	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^struct ALIGNED(checksum256) {$/;"	f
+ALIGNED	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^struct ALIGNED(checksum512) {$/;"	f
+ALIGNED	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	32;"	d
+CORE_SYMBOL	/usr/local/eosio.wasmsdk/include/eosiolib/core_symbol.hpp	7;"	d
+EOSIO_ABI	/usr/local/eosio.wasmsdk/include/eosiolib/dispatcher.hpp	74;"	d
+EOSIO_API	/usr/local/eosio.wasmsdk/include/eosiolib/dispatcher.hpp	71;"	d
+EOSIO_API_CALL	/usr/local/eosio.wasmsdk/include/eosiolib/dispatcher.hpp	66;"	d
+EOSLIB_REFLECT	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	76;"	d
+EOSLIB_REFLECT_BASE_MEMBER_COUNT	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	37;"	d
+EOSLIB_REFLECT_DERIVED	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	118;"	d
+EOSLIB_REFLECT_DERIVED_IMPL	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	101;"	d
+EOSLIB_REFLECT_DERIVED_IMPL_EXT	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	60;"	d
+EOSLIB_REFLECT_DERIVED_IMPL_INLINE	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	43;"	d
+EOSLIB_REFLECT_DERIVED_TEMPLATE	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	130;"	d
+EOSLIB_REFLECT_EMPTY	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	82;"	d
+EOSLIB_REFLECT_FWD	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	86;"	d
+EOSLIB_REFLECT_IMPL	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	104;"	d
+EOSLIB_REFLECT_MEMBER_COUNT	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	40;"	d
+EOSLIB_REFLECT_MEMBER_OP	/usr/local/eosio.wasmsdk/include/eosiolib/serialize.hpp	7;"	d
+EOSLIB_REFLECT_TEMPLATE	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	79;"	d
+EOSLIB_REFLECT_VISIT2_BASE	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	22;"	d
+EOSLIB_REFLECT_VISIT2_MEMBER	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	31;"	d
+EOSLIB_REFLECT_VISIT_BASE	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	19;"	d
+EOSLIB_REFLECT_VISIT_MEMBER	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	26;"	d
+EOSLIB_SERIALIZE	/usr/local/eosio.wasmsdk/include/eosiolib/serialize.hpp	19;"	d
+EOSLIB_SERIALIZE_DERIVED	/usr/local/eosio.wasmsdk/include/eosiolib/serialize.hpp	30;"	d
+INLINE_ACTION_SENDER	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	228;"	d
+INLINE_ACTION_SENDER2	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	225;"	d
+INLINE_ACTION_SENDER3	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	222;"	d
+MAKE_TRAITS_FOR_ARITHMETIC_SECONDARY_KEY	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	85;"	d
+N	/usr/local/eosio.wasmsdk/include/eosiolib/dispatcher.hpp	9;"	d
+N	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	67;"	d
+S	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	28;"	d
+SEND_INLINE_ACTION	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	230;"	d
+WRAP_SECONDARY_ARRAY_TYPE	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	58;"	d
+WRAP_SECONDARY_SIMPLE_TYPE	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	31;"	d
+__idx	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         const multi_index* __idx;$/;"	m	struct:eosio::multi_index::item
+__iters	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         int32_t            __iters[sizeof...(Indices)+(sizeof...(Indices)==0)];$/;"	m	struct:eosio::multi_index::item
+__primary_itr	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         int32_t            __primary_itr;$/;"	m	struct:eosio::multi_index::item
+_active_free_heap	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      uint32_t _active_free_heap;$/;"	m	class:eosio::memory_manager	file:
+_active_heap	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      uint32_t _active_heap;$/;"	m	class:eosio::memory_manager	file:
+_alloc_memory_mask	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      static const uint32_t _alloc_memory_mask = uint32_t(1) << 31;$/;"	m	class:eosio::memory_manager	file:
+_available_heaps	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      memory _available_heaps[_heaps_size];$/;"	m	class:eosio::memory_manager	file:
+_code	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      uint64_t _code;$/;"	m	class:eosio::multi_index
+_contract	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         account_name _contract;$/;"	m	class:eosio::currency
+_count	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        int64_t _count;$/;"	m	class:eosio::microseconds
+_datastream_detail	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^namespace _datastream_detail {$/;"	n	namespace:eosio
+_end	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      T _end;$/;"	m	class:eosio::datastream
+_heap	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         char* _heap;$/;"	m	class:eosio::memory_manager::memory	file:
+_heap_end	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            const char* const _heap_end;$/;"	m	class:eosio::memory_manager::memory::buffer_ptr	file:
+_heap_size	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         uint32_t _heap_size;$/;"	m	class:eosio::memory_manager::memory	file:
+_heaps_actual_size	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      uint32_t _heaps_actual_size;$/;"	m	class:eosio::memory_manager	file:
+_heaps_size	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      static const uint32_t _heaps_size = 16;$/;"	m	class:eosio::memory_manager	file:
+_idx	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const index* _idx;$/;"	m	struct:eosio::multi_index::index::const_iterator
+_indices	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      indices_type _indices;$/;"	m	class:eosio::multi_index
+_initial_heap	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      char _initial_heap[_initial_heap_size];$/;"	m	class:eosio::memory_manager	file:
+_initial_heap_size	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      static const uint32_t _initial_heap_size = 40;\/\/32768;$/;"	m	class:eosio::memory_manager	file:
+_item	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const item*  _item;$/;"	m	struct:eosio::multi_index::index::const_iterator
+_item	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const item*        _item;$/;"	m	struct:eosio::multi_index::const_iterator
+_item	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         std::unique_ptr<item> _item;$/;"	m	struct:eosio::multi_index::item_ptr
+_items_vector	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      mutable std::vector<item_ptr> _items_vector;$/;"	m	class:eosio::multi_index
+_mem_block	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      static const uint32_t _mem_block = 8;$/;"	m	class:eosio::memory_manager	file:
+_multi_index_detail	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^namespace _multi_index_detail {$/;"	n	namespace:eosio
+_multidx	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const multi_index* _multidx;$/;"	m	struct:eosio::multi_index::const_iterator
+_multidx	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            typename std::conditional<IsConst, const multi_index*, multi_index*>::type _multidx;$/;"	m	struct:eosio::multi_index::index
+_next_primary_key	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      mutable uint64_t _next_primary_key;$/;"	m	class:eosio::multi_index
+_offset	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         uint32_t _offset;$/;"	m	class:eosio::memory_manager::memory	file:
+_pos	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      T _pos;$/;"	m	class:eosio::datastream
+_primary_itr	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         int32_t               _primary_itr;$/;"	m	struct:eosio::multi_index::item_ptr
+_primary_key	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         uint64_t              _primary_key;$/;"	m	struct:eosio::multi_index::item_ptr
+_ptr	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            char* _ptr;$/;"	m	class:eosio::memory_manager::memory::buffer_ptr	file:
+_rem_mem_block_mask	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      static const uint32_t _rem_mem_block_mask = _mem_block - 1;$/;"	m	class:eosio::memory_manager	file:
+_scope	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      uint64_t _scope;$/;"	m	class:eosio::multi_index
+_self	/usr/local/eosio.wasmsdk/include/eosiolib/contract.hpp	/^      account_name _self;$/;"	m	class:eosio::contract
+_size	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     size_t _size;$/;"	m	class:eosio::datastream
+_size	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            uint32_t _size;$/;"	m	class:eosio::memory_manager::memory::buffer_ptr	file:
+_size_marker	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      static const uint32_t _size_marker = sizeof(uint32_t);$/;"	m	class:eosio::memory_manager	file:
+_start	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      T _start;$/;"	m	class:eosio::datastream
+_t	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         table _t;$/;"	m	class:eosio::singleton
+_valid	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         bool         _valid;$/;"	m	class:eosio::optional
+_value	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         storage_type _value;$/;"	m	class:eosio::optional
+account	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      account_name               account;$/;"	m	struct:eosio::action
+account	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         struct account {$/;"	s	class:eosio::currency
+account	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^   account_name account;$/;"	m	struct:account_permission
+account_name	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef uint64_t account_name;$/;"	t
+account_permission	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^struct account_permission {$/;"	s
+accounts	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         typedef eosio::multi_index<N(accounts), account> accounts;$/;"	t	class:eosio::currency
+action	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      action( const Action& value ) {$/;"	f	struct:eosio::action
+action	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      action( const permission_level& auth, account_name a, action_name n, T&& value )$/;"	f	struct:eosio::action
+action	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      action( const permission_level& auth, const Action& value )$/;"	f	struct:eosio::action
+action	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      action( vector<permission_level> auths, account_name a, action_name n, T&& value )$/;"	f	struct:eosio::action
+action	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      action( vector<permission_level>&& auth, const Action& value ) {$/;"	f	struct:eosio::action
+action	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^   struct action {$/;"	s	namespace:eosio
+action_meta	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^   struct action_meta {$/;"	s	namespace:eosio
+action_name	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef uint64_t action_name;$/;"	t
+actions	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      vector<action>  actions;$/;"	m	class:eosio::transaction
+actor	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      account_name    actor;$/;"	m	struct:eosio::permission_level
+add_balance	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^          void add_balance( account_name owner, asset value, const currency_stats& st, account_name ram_payer )$/;"	f	class:eosio::currency
+adjust_to_mem_block	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      void adjust_to_mem_block(uint32_t& size)$/;"	f	class:eosio::memory_manager	file:
+amount	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      int64_t      amount;$/;"	m	struct:eosio::asset
+apply	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         bool apply( account_name contract, action_name act ) {$/;"	f	class:eosio::currency
+arr_itr	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^               arr_itr += num_sub_words;$/;"	m	namespace:eosio	typeref:class:eosio::fixed_key
+asset	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      explicit asset( int64_t a = 0, symbol_type s = CORE_SYMBOL )$/;"	f	struct:eosio::asset
+asset	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^   struct asset {$/;"	s	namespace:eosio
+authorization	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      vector<permission_level>   authorization;$/;"	m	struct:eosio::action
+available_primary_key	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      uint64_t available_primary_key()const {$/;"	f	class:eosio::multi_index
+balance	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            asset    balance;$/;"	m	struct:eosio::currency::account
+base_per_transaction_net_usage	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t base_per_transaction_net_usage;$/;"	m	struct:eosio::blockchain_parameters
+begin	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator begin()const  { return cbegin(); }$/;"	f	struct:eosio::multi_index::index
+begin	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator begin()const  { return cbegin(); }$/;"	f	class:eosio::multi_index
+block_id_type	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef struct checksum256 block_id_type;$/;"	t	typeref:struct:checksum256
+block_interval_ms	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         static constexpr int32_t block_interval_ms = 500;$/;"	m	class:eosio::block_timestamp
+block_signing_key	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      public_key   block_signing_key;$/;"	m	struct:eosio::producer_key
+block_timestamp	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         block_timestamp(const time_point& t) {$/;"	f	class:eosio::block_timestamp
+block_timestamp	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         block_timestamp(const time_point_sec& t) {$/;"	f	class:eosio::block_timestamp
+block_timestamp	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         explicit block_timestamp( uint32_t s=0 ) :slot(s){}$/;"	f	class:eosio::block_timestamp
+block_timestamp	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^   class block_timestamp {$/;"	c	namespace:eosio
+block_timestamp_epoch	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         static constexpr int64_t block_timestamp_epoch = 946684800000ll;  \/\/ epoch is year 2000$/;"	m	class:eosio::block_timestamp
+block_timestamp_type	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^   typedef block_timestamp block_timestamp_type; $/;"	t	namespace:eosio
+blockchain_parameters	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^   struct blockchain_parameters {$/;"	s	namespace:eosio
+buffer_ptr	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            buffer_ptr(void* ptr, const char* const heap_end)$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+buffer_ptr	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            buffer_ptr(void* ptr, uint32_t buff_size, const char* const heap_end)$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+buffer_ptr	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         class buffer_ptr$/;"	c	class:eosio::memory_manager::memory	file:
+bytes	/usr/local/eosio.wasmsdk/include/eosiolib/vector.hpp	/^   typedef std::vector<char> bytes;$/;"	t	namespace:eosio
+call	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      static void call(account_name code, const permission_level& perm, std::tuple<Args...> args) {$/;"	f	struct:eosio::inline_dispatcher
+call	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      static void call(account_name code, vector<permission_level> perms, std::tuple<Args...> args) {$/;"	f	struct:eosio::inline_dispatcher
+calloc	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^void* calloc(size_t count, size_t size)$/;"	f
+can_freeze	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            bool           can_freeze         = true;$/;"	m	struct:eosio::currency::currency_stats
+can_recall	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            bool           can_recall         = true;$/;"	m	struct:eosio::currency::currency_stats
+can_whitelist	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            bool           can_whitelist      = true;$/;"	m	struct:eosio::currency::currency_stats
+cbegin	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator cbegin()const {$/;"	f	struct:eosio::multi_index::index
+cbegin	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator cbegin()const {$/;"	f	class:eosio::multi_index
+cend	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator cend()const   { return const_iterator( this ); }$/;"	f	struct:eosio::multi_index::index
+cend	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator cend()const   { return const_iterator( this ); }$/;"	f	class:eosio::multi_index
+char_to_symbol	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^   static constexpr  char char_to_symbol( char c ) {$/;"	f	namespace:eosio
+check_permission_authorization	/usr/local/eosio.wasmsdk/include/eosiolib/permission.hpp	/^   check_permission_authorization( account_name                       account,$/;"	f	namespace:eosio
+check_transaction_authorization	/usr/local/eosio.wasmsdk/include/eosiolib/permission.hpp	/^   check_transaction_authorization( const transaction&                 trx,$/;"	f	namespace:eosio
+cleanup_remaining	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         void cleanup_remaining()$/;"	f	class:eosio::memory_manager::memory
+const_iterator	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const_iterator( const index* idx, const item* i = nullptr )$/;"	f	struct:eosio::multi_index::index::const_iterator
+const_iterator	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const_iterator():_item(nullptr){}$/;"	f	struct:eosio::multi_index::index::const_iterator
+const_iterator	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator( const multi_index* mi, const item* i = nullptr )$/;"	f	struct:eosio::multi_index::const_iterator
+const_iterator	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            struct const_iterator : public std::iterator<std::bidirectional_iterator_tag, const T> {$/;"	s	struct:eosio::multi_index::index
+const_iterator	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      struct const_iterator : public std::iterator<std::bidirectional_iterator_tag, const T> {$/;"	s	class:eosio::multi_index
+const_reverse_iterator	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            typedef std::reverse_iterator<const_iterator> const_reverse_iterator;$/;"	t	struct:eosio::multi_index::index
+const_reverse_iterator	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      typedef std::reverse_iterator<const_iterator> const_reverse_iterator;$/;"	t	class:eosio::multi_index
+constants	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            enum constants {$/;"	g	struct:eosio::multi_index::index
+constants	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^   enum constants { index_name   = IndexName };$/;"	g	struct:eosio::indexed_by
+context_free_actions	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      vector<action>  context_free_actions;$/;"	m	class:eosio::transaction
+context_free_discount_net_usage_den	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t context_free_discount_net_usage_den;$/;"	m	struct:eosio::blockchain_parameters
+context_free_discount_net_usage_num	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t context_free_discount_net_usage_num;$/;"	m	struct:eosio::blockchain_parameters
+contract	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      account_name contract;$/;"	m	struct:eosio::extended_asset
+contract	/usr/local/eosio.wasmsdk/include/eosiolib/contract.hpp	/^      contract( account_name n ):_self(n){}$/;"	f	class:eosio::contract
+contract	/usr/local/eosio.wasmsdk/include/eosiolib/contract.hpp	/^class contract {$/;"	c	namespace:eosio
+contract	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      account_name contract;$/;"	m	struct:eosio::extended_symbol
+contract	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      extended_symbol( symbol_name s = 0, account_name c = 0 ):symbol_type{s},contract(c){}$/;"	f	struct:eosio::extended_symbol
+count	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        int64_t count()const { return _count; }$/;"	f	class:eosio::microseconds
+cout	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   static iostream cout;$/;"	m	namespace:eosio
+crbegin	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_reverse_iterator crbegin()const { return std::make_reverse_iterator(cend()); }$/;"	f	struct:eosio::multi_index::index
+crbegin	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_reverse_iterator crbegin()const { return std::make_reverse_iterator(cend()); }$/;"	f	class:eosio::multi_index
+create	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         struct create {$/;"	s	class:eosio::currency
+create_currency	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^          void create_currency( const create& c ) {$/;"	f	class:eosio::currency
+crend	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_reverse_iterator crend()const   { return std::make_reverse_iterator(cbegin()); }$/;"	f	struct:eosio::multi_index::index
+crend	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_reverse_iterator crend()const   { return std::make_reverse_iterator(cbegin()); }$/;"	f	class:eosio::multi_index
+currency	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         currency( account_name contract )$/;"	f	class:eosio::currency
+currency	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^   class currency {$/;"	c	namespace:eosio
+currency_stats	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         struct currency_stats {$/;"	s	class:eosio::currency
+data	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      bytes                      data;$/;"	m	struct:eosio::action
+data	/usr/local/eosio.wasmsdk/include/eosiolib/public_key.hpp	/^      std::array<char,33> data;$/;"	m	struct:eosio::public_key
+data	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^   char data[34];$/;"	m	struct:public_key
+data	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^   uint8_t data[66];$/;"	m	struct:signature
+data_as	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      T data_as() {$/;"	f	struct:eosio::action
+datastream	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      datastream( T start, size_t s )$/;"	f	class:eosio::datastream
+datastream	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     datastream( size_t init_size = 0):_size(init_size){}$/;"	f	class:eosio::datastream
+datastream	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^class datastream {$/;"	c	namespace:eosio
+datastream	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^class datastream<size_t> {$/;"	c	namespace:eosio
+days	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^  inline microseconds days(int64_t d) { return hours(24*d); }$/;"	f	namespace:eosio
+deferred_trx_expiration_window	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t deferred_trx_expiration_window;$/;"	m	struct:eosio::blockchain_parameters
+delay_sec	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      unsigned_int    delay_sec = 0UL; \/\/\/ number of CPU usage units to bill transaction for$/;"	m	class:eosio::transaction_header
+dispatch	/usr/local/eosio.wasmsdk/include/eosiolib/dispatcher.hpp	/^   bool dispatch( uint64_t code, uint64_t act ) {$/;"	f	namespace:eosio
+dispatch_inline	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^   void dispatch_inline( account_name code, action_name act,$/;"	f	namespace:eosio
+e	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      struct intc { enum e{ value = I }; operator uint64_t()const{ return I; }  };$/;"	g	struct:eosio::multi_index::intc
+elapsed	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        microseconds elapsed;$/;"	m	class:eosio::time_point
+emplace	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator emplace( uint64_t payer, Lambda&& constructor ) {$/;"	f	class:eosio::multi_index
+emplace	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         void emplace(Args&& ... args) {$/;"	f	class:eosio::optional
+end	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            char* end() const$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+end	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator end()const    { return cend(); }$/;"	f	struct:eosio::multi_index::index
+end	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator end()const    { return cend(); }$/;"	f	class:eosio::multi_index
+enforce_whitelist	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            bool           enforce_whitelist  = false;$/;"	m	struct:eosio::currency::currency_stats
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/contract.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/dispatcher.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^namespace eosio {$/;"	n	file:
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/fixedpoint.hpp	/^namespace eosio$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/permission.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/producer_schedule.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/public_key.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^namespace  eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^namespace eosio {$/;"	n
+eosio	/usr/local/eosio.wasmsdk/include/eosiolib/vector.hpp	/^namespace eosio {$/;"	n
+erase	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator erase( const_iterator itr ) {$/;"	f	struct:eosio::multi_index::index
+erase	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator erase( const_iterator itr ) {$/;"	f	class:eosio::multi_index
+erase	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      void erase( const T& obj ) {$/;"	f	class:eosio::multi_index
+execute_action	/usr/local/eosio.wasmsdk/include/eosiolib/dispatcher.hpp	/^   bool execute_action( T* obj, void (Q::*func)(Args...)  ) {$/;"	f	namespace:eosio
+exists	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         bool exists() {$/;"	f	class:eosio::singleton
+expand_memory	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         bool expand_memory(char* exp_mem, uint32_t size)$/;"	f	class:eosio::memory_manager::memory
+expiration	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      time_point_sec  expiration;$/;"	m	class:eosio::transaction_header
+extended_asset	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      extended_asset( asset a, account_name c ):asset(a),contract(c){}$/;"	f	struct:eosio::extended_asset
+extended_asset	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      extended_asset( int64_t v, extended_symbol s ):asset(v,s),contract(s.contract){}$/;"	f	struct:eosio::extended_asset
+extended_asset	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^   struct extended_asset : public asset {$/;"	s	namespace:eosio
+extended_symbol	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      extended_symbol( symbol_name s = 0, account_name c = 0 ):symbol_type{s},contract(c){}$/;"	f	struct:eosio::extended_symbol
+extended_symbol	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^   struct extended_symbol : public symbol_type$/;"	s	namespace:eosio
+extensions_type	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^   typedef std::vector<std::tuple<uint16_t,std::vector<char>>> extensions_type;$/;"	t	namespace:eosio
+extract_secondary_key	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            static auto extract_secondary_key(const T& obj) { return secondary_extractor_type()(obj); }$/;"	f	struct:eosio::multi_index::index
+fee_per_length	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            array<extended_asset,7> fee_per_length;$/;"	m	struct:eosio::currency::fee_schedule
+fee_schedule	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         struct fee_schedule {$/;"	s	class:eosio::currency
+find	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator find( const secondary_key_type& secondary )const {$/;"	f	struct:eosio::multi_index::index
+find	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator find( secondary_key_type&& secondary )const {$/;"	f	struct:eosio::multi_index::index
+find	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator find( uint64_t primary )const {$/;"	f	class:eosio::multi_index
+fixed_key	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^         constexpr fixed_key() : _data() {}$/;"	f	class:eosio::fixed_key
+fixed_key	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^         fixed_key(const std::array<word_t, num_words()>& arr)$/;"	f	class:eosio::fixed_key
+fixed_key	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^   class fixed_key {$/;"	c	namespace:eosio
+fixed_point128	/usr/local/eosio.wasmsdk/include/eosiolib/fixedpoint.hpp	/^    struct fixed_point128$/;"	s	namespace:eosio
+free	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         void free(char* ptr)$/;"	f	class:eosio::memory_manager::memory
+free	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      void free(void* ptr)$/;"	f	class:eosio::memory_manager	file:
+free	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^void free(void* ptr)$/;"	f
+from	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            account_name from;$/;"	m	struct:eosio::currency::transfer
+from_current_action	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      static onerror from_current_action() {$/;"	f	struct:eosio::onerror
+frozen	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            bool     frozen    = false;$/;"	m	struct:eosio::currency::account
+get	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline bool get( char& c )$/;"	f	class:eosio::datastream
+get	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline bool get( unsigned char& c ) { return get( *(char*)&c ); }$/;"	f	class:eosio::datastream
+get	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const T& get( const secondary_key_type& secondary, const char* error_msg = "unable to find secondary key" )const {$/;"	f	struct:eosio::multi_index::index
+get	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const T& get( secondary_key_type&& secondary, const char* error_msg = "unable to find secondary key" )const {$/;"	f	struct:eosio::multi_index::index
+get	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const T& get( uint64_t primary, const char* error_msg = "unable to find key" )const {$/;"	f	class:eosio::multi_index
+get	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         T get() {$/;"	f	class:eosio::singleton
+get_account	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      static uint64_t get_account() { return Account; }$/;"	f	struct:eosio::action_meta
+get_action	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^   inline action get_action( uint32_t type, uint32_t index ) {$/;"	f	namespace:eosio
+get_balance	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         asset get_balance( account_name owner, symbol_name symbol )const {$/;"	f	class:eosio::currency
+get_blockchain_parameters	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^   void get_blockchain_parameters(eosio::blockchain_parameters& params) {$/;"	f	namespace:eosio
+get_code	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            uint64_t get_code()const  { return _multidx->get_code(); }$/;"	f	struct:eosio::multi_index::index
+get_code	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      uint64_t get_code()const  { return _code; }$/;"	f	class:eosio::multi_index
+get_extended_symbol	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      extended_symbol get_extended_symbol()const { return extended_symbol( symbol, contract ); }$/;"	f	struct:eosio::extended_asset
+get_index	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      auto get_index() {$/;"	f	class:eosio::multi_index
+get_index	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      auto get_index()const {$/;"	f	class:eosio::multi_index
+get_name	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      static uint64_t get_name()  { return Name; }$/;"	f	struct:eosio::action_meta
+get_or_create	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         T get_or_create( account_name bill_to_account, const T& def = T() ) {$/;"	f	class:eosio::singleton
+get_or_default	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         T get_or_default( const T& def = T() ) {$/;"	f	class:eosio::singleton
+get_scope	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            uint64_t get_scope()const { return _multidx->get_scope(); }$/;"	f	struct:eosio::multi_index::index
+get_scope	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      uint64_t get_scope()const { return _scope; }$/;"	f	class:eosio::multi_index
+get_self	/usr/local/eosio.wasmsdk/include/eosiolib/contract.hpp	/^      inline account_name get_self()const { return _self; }$/;"	f	class:eosio::contract
+get_supply	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         asset get_supply( symbol_name symbol )const {$/;"	f	class:eosio::currency
+hours	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^  inline microseconds hours(int64_t h) { return minutes(60*h); }$/;"	f	namespace:eosio
+index	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            index( typename std::conditional<IsConst, const multi_index*, multi_index*>::type midx )$/;"	f	struct:eosio::multi_index::index
+index	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      struct index {$/;"	s	class:eosio::multi_index
+index_name	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^               index_name   = IndexName,$/;"	e	enum:eosio::multi_index::index::constants
+index_name	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^   enum constants { index_name   = IndexName };$/;"	e	enum:eosio::indexed_by::constants
+index_number	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^               index_number = Number,$/;"	e	enum:eosio::multi_index::index::constants
+index_table_name	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^               index_table_name = (TableName & 0xFFFFFFFFFFFFFFF0ULL) | (Number & 0x000000000000000FULL) \/\/ Assuming no more than 16 secondary indices are allowed$/;"	e	enum:eosio::multi_index::index::constants
+indexed_by	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^struct indexed_by {$/;"	s	namespace:eosio
+indices_type	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      typedef decltype( multi_index::transform_indices() ) indices_type;$/;"	t	class:eosio::multi_index
+init	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         void init(char* const mem_heap, uint32_t size)$/;"	f	class:eosio::memory_manager::memory
+inline_dispatcher	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^   struct inline_dispatcher<void(T::*)(Args...), Name> {$/;"	s	namespace:eosio
+inline_transfer	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         static void inline_transfer( account_name from, account_name to, extended_asset amount, string memo = string(), permission_name perm = N(active) ) {$/;"	f	class:eosio::currency
+inline_transfer	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         void inline_transfer( account_name from, account_name to, asset amount, string memo = string(), permission_name perm = N(active) ) {$/;"	f	class:eosio::currency
+intc	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      struct intc { enum e{ value = I }; operator uint64_t()const{ return I; }  };$/;"	s	class:eosio::multi_index
+iostream	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   class iostream {};$/;"	c	namespace:eosio
+is_alloc	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            bool is_alloc() const$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+is_amount_within_range	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      bool is_amount_within_range()const { return -max_amount <= amount && amount <= max_amount; }$/;"	f	struct:eosio::asset
+is_capacity_remaining	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         uint32_t is_capacity_remaining() const$/;"	f	class:eosio::memory_manager::memory
+is_enum	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	/^     typedef std::false_type is_enum;$/;"	t	struct:eosio::reflector
+is_frozen	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            bool           is_frozen          = false;$/;"	m	struct:eosio::currency::currency_stats
+is_in_heap	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         uint32_t is_in_heap(const char* const ptr) const$/;"	f	class:eosio::memory_manager::memory
+is_init	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         uint32_t is_init() const$/;"	f	class:eosio::memory_manager::memory
+is_pointer	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^   constexpr bool is_pointer() {$/;"	f	namespace:eosio::_datastream_detail
+is_primitive	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^   constexpr bool is_primitive() {$/;"	f	namespace:eosio::_datastream_detail
+is_reflected	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	/^     typedef std::false_type is_reflected;$/;"	t	struct:eosio::reflector
+is_valid	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      bool is_valid()const               { return is_amount_within_range() && symbol.is_valid(); }$/;"	f	struct:eosio::asset
+is_valid	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      bool     is_valid()const  { return is_valid_symbol( value ); }$/;"	f	struct:eosio::symbol_type
+is_valid_symbol	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^   static constexpr bool is_valid_symbol( symbol_name sym ) {$/;"	f	namespace:eosio
+issue	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         struct issue {$/;"	s	class:eosio::currency
+issue_currency	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^          void issue_currency( const issue& i ) {$/;"	f	class:eosio::currency
+issuer	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            account_name           issuer;$/;"	m	struct:eosio::currency::create
+issuer	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            account_name   issuer;$/;"	m	struct:eosio::currency::currency_stats
+issuer_can_freeze	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            uint8_t                issuer_can_freeze     = true;$/;"	m	struct:eosio::currency::create
+issuer_can_recall	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            uint8_t                issuer_can_recall     = true;$/;"	m	struct:eosio::currency::create
+issuer_can_whitelist	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            uint8_t                issuer_can_whitelist  = true;$/;"	m	struct:eosio::currency::create
+item	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         item( const multi_index* idx, Constructor&& c )$/;"	f	struct:eosio::multi_index::item
+item	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      struct item : public T$/;"	s	class:eosio::multi_index
+item_ptr	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         item_ptr(std::unique_ptr<item>&& i, uint64_t pk, int32_t pitr)$/;"	f	struct:eosio::multi_index::item_ptr
+item_ptr	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      struct item_ptr$/;"	s	class:eosio::multi_index
+iterator_to	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator iterator_to( const T& obj ) {$/;"	f	struct:eosio::multi_index::index
+iterator_to	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator iterator_to( const T& obj )const {$/;"	f	class:eosio::multi_index
+less	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^   struct less<checksum256> : binary_function<checksum256, checksum256, bool> {$/;"	s	namespace:std
+load_object_by_primary_iterator	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const item& load_object_by_primary_iterator( int32_t itr )const {$/;"	f	class:eosio::multi_index
+lower_bound	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator lower_bound( const secondary_key_type& secondary )const {$/;"	f	struct:eosio::multi_index::index
+lower_bound	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator lower_bound( secondary_key_type&& secondary )const {$/;"	f	struct:eosio::multi_index::index
+lower_bound	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator lower_bound( uint64_t primary )const {$/;"	f	class:eosio::multi_index
+lowest	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      static constexpr key256 lowest() { return key256(); }$/;"	f	struct:eosio::_multi_index_detail::secondary_key_traits
+malloc	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         char* malloc(uint32_t size)$/;"	f	class:eosio::memory_manager::memory
+malloc	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      void* malloc(uint32_t size)$/;"	f	class:eosio::memory_manager	file:
+malloc	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^void* malloc(size_t size)$/;"	f
+malloc_from_freed	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         char* malloc_from_freed(uint32_t size)$/;"	f	class:eosio::memory_manager::memory
+mark_alloc	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            void mark_alloc()$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+mark_free	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            void mark_free()$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+max_amount	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      static constexpr int64_t max_amount    = (1LL << 62) - 1;$/;"	m	struct:eosio::asset
+max_authority_depth	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint16_t max_authority_depth;$/;"	m	struct:eosio::blockchain_parameters
+max_block_cpu_usage	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t max_block_cpu_usage;$/;"	m	struct:eosio::blockchain_parameters
+max_block_net_usage	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint64_t max_block_net_usage;$/;"	m	struct:eosio::blockchain_parameters
+max_cpu_usage_ms	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      uint8_t         max_cpu_usage_ms = 0UL; \/\/\/ number of CPU usage units to bill transaction for$/;"	m	class:eosio::transaction_header
+max_inline_action_depth	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint16_t max_inline_action_depth;$/;"	m	struct:eosio::blockchain_parameters
+max_inline_action_size	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t max_inline_action_size;$/;"	m	struct:eosio::blockchain_parameters
+max_stack_buffer_size	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      constexpr static size_t max_stack_buffer_size = 512;$/;"	m	class:eosio::multi_index
+max_supply	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            asset          max_supply;$/;"	m	struct:eosio::currency::currency_stats
+max_transaction_cpu_usage	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t max_transaction_cpu_usage;$/;"	m	struct:eosio::blockchain_parameters
+max_transaction_delay	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t max_transaction_delay;$/;"	m	struct:eosio::blockchain_parameters
+max_transaction_lifetime	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t max_transaction_lifetime;$/;"	m	struct:eosio::blockchain_parameters
+max_transaction_net_usage	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t max_transaction_net_usage;$/;"	m	struct:eosio::blockchain_parameters
+maximum	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         static block_timestamp maximum() { return block_timestamp( 0xffff ); }$/;"	f	class:eosio::block_timestamp
+maximum	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        static microseconds maximum() { return microseconds(0x7fffffffffffffffll); }$/;"	f	class:eosio::microseconds
+maximum	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        static time_point_sec maximum() { return time_point_sec(0xffffffff); }$/;"	f	class:eosio::time_point_sec
+maximum_supply	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            asset                  maximum_supply;$/;"	m	struct:eosio::currency::create
+memo	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            string       memo;$/;"	m	struct:eosio::currency::issue
+memo	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            string       memo;$/;"	m	struct:eosio::currency::transfer
+memory	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         memory()$/;"	f	class:eosio::memory_manager::memory
+memory	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      class memory$/;"	c	class:eosio::memory_manager	file:
+memory_heap	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^   memory_manager memory_heap;$/;"	m	namespace:eosio	file:
+memory_manager	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      memory_manager()$/;"	f	class:eosio::memory_manager
+memory_manager	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^   class memory_manager  \/\/ NOTE: Should never allocate another instance of memory_manager$/;"	c	namespace:eosio	file:
+merge_contiguous	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            bool merge_contiguous(uint32_t needed_size)$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+merge_contiguous	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            bool merge_contiguous(uint32_t needed_size, bool all_or_nothing)$/;"	f	class:eosio::memory_manager::memory::buffer_ptr	file:
+merge_contiguous_if_available	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            bool merge_contiguous_if_available(uint32_t needed_size)$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+microseconds	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        explicit microseconds( int64_t c = 0) :_count(c){}$/;"	f	class:eosio::microseconds
+microseconds	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^  class microseconds {$/;"	c	namespace:eosio
+milliseconds	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^  inline microseconds milliseconds( int64_t s ) { return microseconds( s * 1000 ); }$/;"	f	namespace:eosio
+min	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         static block_timestamp min() { return block_timestamp(0); }$/;"	f	class:eosio::block_timestamp
+min	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        static time_point_sec min() { return time_point_sec(0); }$/;"	f	class:eosio::time_point_sec
+min_transaction_cpu_usage	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t min_transaction_cpu_usage;$/;"	m	struct:eosio::blockchain_parameters
+minutes	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^  inline microseconds minutes(int64_t m) { return seconds(60*m); }$/;"	f	namespace:eosio
+modify	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            void modify( const_iterator itr, uint64_t payer, Lambda&& updater ) {$/;"	f	struct:eosio::multi_index::index
+modify	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      void modify( const T& obj, uint64_t payer, Lambda&& updater ) {$/;"	f	class:eosio::multi_index
+modify	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      void modify( const_iterator itr, uint64_t payer, Lambda&& updater ) {$/;"	f	class:eosio::multi_index
+multi_index	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      multi_index( uint64_t code, uint64_t scope )$/;"	f	class:eosio::multi_index
+multi_index	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^class multi_index$/;"	c	namespace:eosio
+name	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      action_name                name;$/;"	m	struct:eosio::action
+name	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            constexpr static uint64_t name()   { return index_table_name; }$/;"	f	struct:eosio::multi_index::index
+name	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      uint64_t name()const      { return value >> 8;   }$/;"	f	struct:eosio::symbol_type
+name	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^   struct name {$/;"	s	namespace:eosio
+name_length	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      uint32_t name_length()const { return symbol_name_length( value ); }$/;"	f	struct:eosio::symbol_type
+name_suffix	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^   static constexpr uint64_t name_suffix( uint64_t n ) {$/;"	f	namespace:eosio
+net_usage_leeway	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t net_usage_leeway;$/;"	m	struct:eosio::blockchain_parameters
+net_usage_words	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      unsigned_int    net_usage_words = 0UL; \/\/\/ number of 8 byte words this transaction can serialize into after compressions$/;"	m	class:eosio::transaction_header
+next	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         block_timestamp next() const {$/;"	f	class:eosio::block_timestamp
+next_active_heap	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      memory* next_active_heap()$/;"	f	class:eosio::memory_manager	file:
+next_ptr	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            char* next_ptr() const$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+now	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^uint32_t now() {$/;"	f
+num_words	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^         static constexpr size_t num_words() { return (Size + sizeof(word_t) - 1) \/ sizeof(word_t); }$/;"	f	class:eosio::fixed_key
+number	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            constexpr static uint64_t number() { return Number; }$/;"	f	struct:eosio::multi_index::index
+on	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^          void on( const create& c ) {$/;"	f	class:eosio::currency
+on	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^          void on( const issue& i ) {$/;"	f	class:eosio::currency
+on	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^          void on( const transfer& t ) {$/;"	f	class:eosio::currency
+onerror	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^   struct onerror {$/;"	s	namespace:eosio
+operator !	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         bool operator!()const { return !_valid; }$/;"	f	class:eosio::optional
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend bool operator!=( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^bool operator!=(const checksum160& lhs, const checksum160& rhs) {$/;"	f
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  friend bool operator != ( const const_iterator& a, const const_iterator& b ) {$/;"	f	struct:eosio::multi_index::index::const_iterator
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         friend bool operator != ( const const_iterator& a, const const_iterator& b ) {$/;"	f	struct:eosio::multi_index::const_iterator
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^   bool operator != ( const optional<T>& left, const U& u ) {$/;"	f	namespace:eosio
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^   bool operator != ( const optional<T>& left, const optional<T>& right ) {$/;"	f	namespace:eosio
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/public_key.hpp	/^      friend bool operator != ( const public_key& a, const public_key& b ) {$/;"	f	struct:eosio::public_key
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      friend bool operator != ( const extended_symbol& a, const extended_symbol& b ) {$/;"	f	struct:eosio::extended_symbol
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         bool   operator !=( const block_timestamp& t )const   { return slot != t.slot; }$/;"	f	class:eosio::block_timestamp
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        bool   operator !=( const time_point& t )const                              { return elapsed._count !=t.elapsed._count; }$/;"	f	class:eosio::time_point
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        bool operator!=(const microseconds& c)const { return _count != c._count; }$/;"	f	class:eosio::microseconds
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool      operator != ( const time_point_sec& a, const time_point_sec& b ) { return a.utc_seconds != b.utc_seconds; }$/;"	f	class:eosio::time_point_sec
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator!=( const int32_t& i, const signed_int& v )    { return i       != v.value; }$/;"	f	struct:signed_int
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator!=( const signed_int& i, const int32_t& v )    { return i.value != v; }$/;"	f	struct:signed_int
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator!=( const signed_int& i, const signed_int& v ) { return i.value != v.value; }$/;"	f	struct:signed_int
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator!=( const uint32_t& i, const unsigned_int& v )     { return i       != v.value; }$/;"	f	struct:unsigned_int
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator!=( const unsigned_int& i, const uint32_t& v )     { return i.value != v; }$/;"	f	struct:unsigned_int
+operator !=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator!=( const unsigned_int& i, const unsigned_int& v ) { return i.value != v.value; }$/;"	f	struct:unsigned_int
+operator ()	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^      bool operator()( const checksum256& lhs, const checksum256& rhs ) const {$/;"	f	struct:std::less
+operator *	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend asset operator*( const asset& a, int64_t b ) {$/;"	f	struct:eosio::asset
+operator *	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend asset operator*( int64_t b, const asset& a ) {$/;"	f	struct:eosio::asset
+operator *	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const T& operator*()const { return *static_cast<const T*>(_item); }$/;"	f	struct:eosio::multi_index::index::const_iterator
+operator *	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         const T& operator*()const { return *static_cast<const T*>(_item); }$/;"	f	struct:eosio::multi_index::const_iterator
+operator *	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         T&       operator*()      { eosio_assert(_valid, "dereference of empty optional"); return ref(); }$/;"	f	class:eosio::optional
+operator *	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         const T& operator*()const { eosio_assert(_valid, "dereference of empty optional"); return ref(); }$/;"	f	class:eosio::optional
+operator *=	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      asset& operator*=( int64_t a ) {$/;"	f	struct:eosio::asset
+operator +	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend extended_asset operator + ( const extended_asset& a, const extended_asset& b ) {$/;"	f	struct:eosio::extended_asset
+operator +	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      inline friend asset operator+( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator +	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend microseconds operator + (const  microseconds& l, const microseconds& r ) { return microseconds(l._count+r._count); }$/;"	f	class:eosio::microseconds
+operator +	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend time_point   operator + ( const time_point_sec& t, const microseconds& m )   { return time_point(t) + m;             }$/;"	f	class:eosio::time_point_sec
+operator +	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point   operator + (const microseconds& m) const { return time_point(elapsed+m); }$/;"	f	class:eosio::time_point
+operator +	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point   operator + (const time_point& m) const { return time_point(elapsed+m.elapsed); }$/;"	f	class:eosio::time_point
+operator +	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec   operator +( uint32_t offset )const { return time_point_sec(utc_seconds + offset); }$/;"	f	class:eosio::time_point_sec
+operator ++	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const_iterator operator++(int){$/;"	f	struct:eosio::multi_index::index::const_iterator
+operator ++	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const_iterator& operator++() {$/;"	f	struct:eosio::multi_index::index::const_iterator
+operator ++	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         const_iterator operator++(int) {$/;"	f	struct:eosio::multi_index::const_iterator
+operator ++	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         const_iterator& operator++() {$/;"	f	struct:eosio::multi_index::const_iterator
+operator ++	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    signed_int operator++(int) { return value++; }$/;"	f	struct:signed_int
+operator ++	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    signed_int& operator++(){ ++value; return *this; }$/;"	f	struct:signed_int
+operator +=	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      asset& operator+=( const asset& a ) {$/;"	f	struct:eosio::asset
+operator +=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        microseconds& operator+=(const microseconds& c) { _count += c._count; return *this; }$/;"	f	class:eosio::microseconds
+operator +=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point&  operator += ( const microseconds& m)                           { elapsed+=m; return *this;                 }$/;"	f	class:eosio::time_point
+operator +=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec&  operator += ( microseconds m ) { utc_seconds+=m.to_seconds(); return *this; }$/;"	f	class:eosio::time_point_sec
+operator +=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec&  operator += ( time_point_sec m ) { utc_seconds+=m.utc_seconds; return *this; }$/;"	f	class:eosio::time_point_sec
+operator +=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec&  operator += ( uint32_t m ) { utc_seconds+=m; return *this; }$/;"	f	class:eosio::time_point_sec
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      asset operator-()const {$/;"	f	struct:eosio::asset
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      extended_asset operator-()const {$/;"	f	struct:eosio::extended_asset
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend extended_asset operator - ( const extended_asset& a, const extended_asset& b ) {$/;"	f	struct:eosio::extended_asset
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      inline friend asset operator-( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend microseconds operator - ( const time_point& t, const time_point_sec& m ) { return time_point(t) - time_point(m); }$/;"	f	class:eosio::time_point_sec
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend microseconds operator - ( const time_point_sec& t, const time_point_sec& m ) { return time_point(t) - time_point(m); }$/;"	f	class:eosio::time_point_sec
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend microseconds operator - (const  microseconds& l, const microseconds& r ) { return microseconds(l._count-r._count); }$/;"	f	class:eosio::microseconds
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend time_point   operator - ( const time_point_sec& t, const microseconds& m )   { return time_point(t) - m;             }$/;"	f	class:eosio::time_point_sec
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        microseconds operator - (const time_point& m) const { return microseconds(elapsed.count() - m.elapsed.count()); }$/;"	f	class:eosio::time_point
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point   operator - (const microseconds& m) const { return time_point(elapsed-m); }$/;"	f	class:eosio::time_point
+operator -	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec   operator -( uint32_t offset )const { return time_point_sec(utc_seconds - offset); }$/;"	f	class:eosio::time_point_sec
+operator --	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const_iterator operator--(int){$/;"	f	struct:eosio::multi_index::index::const_iterator
+operator --	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const_iterator& operator--() {$/;"	f	struct:eosio::multi_index::index::const_iterator
+operator --	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         const_iterator operator--(int) {$/;"	f	struct:eosio::multi_index::const_iterator
+operator --	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         const_iterator& operator--() {$/;"	f	struct:eosio::multi_index::const_iterator
+operator -=	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      asset& operator-=( const asset& a ) {$/;"	f	struct:eosio::asset
+operator -=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        microseconds& operator-=(const microseconds& c) { _count -= c._count; return *this; }$/;"	f	class:eosio::microseconds
+operator -=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point&  operator -= ( const microseconds& m)                           { elapsed-=m; return *this;                 }$/;"	f	class:eosio::time_point
+operator -=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec&  operator -= ( microseconds m ) { utc_seconds-=m.to_seconds(); return *this; }$/;"	f	class:eosio::time_point_sec
+operator -=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec&  operator -= ( time_point_sec m ) { utc_seconds-=m.utc_seconds; return *this; }$/;"	f	class:eosio::time_point_sec
+operator -=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec&  operator -= ( uint32_t m ) { utc_seconds-=m; return *this; }$/;"	f	class:eosio::time_point_sec
+operator ->	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  const T* operator->()const { return static_cast<const T*>(_item); }$/;"	f	struct:eosio::multi_index::index::const_iterator
+operator ->	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         const T* operator->()const { return static_cast<const T*>(_item); }$/;"	f	struct:eosio::multi_index::const_iterator
+operator ->	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         T*       operator->()$/;"	f	class:eosio::optional
+operator ->	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         const T* operator->()const$/;"	f	class:eosio::optional
+operator /	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend asset operator\/( const asset& a, int64_t b ) {$/;"	f	struct:eosio::asset
+operator /	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend int64_t operator\/( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator /=	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      asset& operator\/=( int64_t a ) {$/;"	f	struct:eosio::asset
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend bool operator<( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         friend bool operator < ( const optional a, optional b )$/;"	f	class:eosio::optional
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      friend bool operator < ( const producer_key& a, const producer_key& b ) {$/;"	f	struct:eosio::producer_key
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         bool   operator < ( const block_timestamp& t )const   { return slot <  t.slot; }$/;"	f	class:eosio::block_timestamp
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        bool   operator < ( const time_point& t )const                              { return elapsed._count < t.elapsed._count; }$/;"	f	class:eosio::time_point
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool      operator < ( const time_point_sec& a, const time_point_sec& b )  { return a.utc_seconds < b.utc_seconds; }$/;"	f	class:eosio::time_point_sec
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool operator<(const microseconds& a, const microseconds& b){ return a._count < b._count; }$/;"	f	class:eosio::microseconds
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator<( const int32_t& i, const signed_int& v )     { return i       < v.value; }$/;"	f	struct:signed_int
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator<( const signed_int& i, const int32_t& v )     { return i.value < v; }$/;"	f	struct:signed_int
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator<( const signed_int& i, const signed_int& v )  { return i.value < v.value; }$/;"	f	struct:signed_int
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator<( const uint32_t& i, const unsigned_int& v )      { return i       < v.value; }$/;"	f	struct:unsigned_int
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator<( const unsigned_int& i, const uint32_t& v )      { return i.value < v; }$/;"	f	struct:unsigned_int
+operator <	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator<( const unsigned_int& i, const unsigned_int& v )  { return i.value < v.value; }$/;"	f	struct:unsigned_int
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator << ( DataStream& ds, const T (&v)[N] ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator << ( DataStream& ds, const boost::container::flat_set<T>& s ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator << ( DataStream& ds, const std::array<T,N>& v ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator << ( DataStream& ds, const std::map<K,V>& m ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator << ( DataStream& ds, const std::set<T>& s ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator << ( DataStream& ds, const std::string& v ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator << ( DataStream& ds, const vector<T>& v ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator << ( DataStream& ds, const vector<char>& v ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator<<( DataStream& ds, const T& v ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator<<( DataStream& ds, const boost::container::flat_map<K,V>& m ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator<<( DataStream& ds, const std::tuple<Args...>& t ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator<<(datastream<Stream>& ds, const bool& d) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator<<(datastream<Stream>& ds, const checksum160& cs) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator<<(datastream<Stream>& ds, const checksum256& d) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator<<(datastream<Stream>& ds, const checksum512& cs) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator<<(datastream<Stream>& ds, const key256& d) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator<<(datastream<Stream>& ds, const public_key pubkey) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         friend inline eosio::datastream<Stream>& operator<< (eosio::datastream<Stream>& ds, const optional& op)$/;"	f	class:eosio::optional
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline iostream& operator<<( iostream& out, const T& v ) {$/;"	f	namespace:eosio
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend DataStream& operator << ( DataStream& ds, const signed_int& v ){$/;"	f	struct:signed_int
+operator <<	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend DataStream& operator << ( DataStream& ds, const unsigned_int& v ){$/;"	f	struct:unsigned_int
+operator <=	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend bool operator<=( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator <=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         bool   operator <=( const block_timestamp& t )const   { return slot <= t.slot; }$/;"	f	class:eosio::block_timestamp
+operator <=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        bool   operator <=( const time_point& t )const                              { return elapsed._count <=t.elapsed._count; }$/;"	f	class:eosio::time_point
+operator <=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool      operator <= ( const time_point_sec& a, const time_point_sec& b )  { return a.utc_seconds <= b.utc_seconds; }$/;"	f	class:eosio::time_point_sec
+operator <=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool operator<=(const microseconds& a, const microseconds& b){ return a._count <= b._count; }$/;"	f	class:eosio::microseconds
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional& operator=( U&& u )$/;"	f	class:eosio::optional
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional& operator=( const optional& o ) {$/;"	f	class:eosio::optional
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional& operator=( const optional<U>& o ) {$/;"	f	class:eosio::optional
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional& operator=( optional& o ) {$/;"	f	class:eosio::optional
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional& operator=( optional&& o )$/;"	f	class:eosio::optional
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional& operator=( optional<U>& o ) {$/;"	f	class:eosio::optional
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional& operator=( optional<U>&& o )$/;"	f	class:eosio::optional
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional& operator=(std::nullptr_t)$/;"	f	class:eosio::optional
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         void operator = (const time_point& t ) {$/;"	f	class:eosio::block_timestamp
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec operator = ( const eosio::time_point& t )$/;"	f	class:eosio::time_point_sec
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    signed_int& operator=( const T& v ) { value = v; return *this; }$/;"	f	struct:signed_int
+operator =	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    unsigned_int& operator=( uint32_t v ) { value = v; return *this; }$/;"	f	struct:unsigned_int
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      friend bool operator == ( const permission_level& a, const permission_level& b ) {$/;"	f	struct:eosio::permission_level
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend bool operator==( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^bool operator==(const checksum160& lhs, const checksum160& rhs) {$/;"	f
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^bool operator==(const checksum256& lhs, const checksum256& rhs) {$/;"	f
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^                  friend bool operator == ( const const_iterator& a, const const_iterator& b ) {$/;"	f	struct:eosio::multi_index::index::const_iterator
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^         friend bool operator == ( const const_iterator& a, const const_iterator& b ) {$/;"	f	struct:eosio::multi_index::const_iterator
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         friend bool operator == ( const optional a, optional b )$/;"	f	class:eosio::optional
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^   bool operator == ( const optional<T>& left, const U& u ) {$/;"	f	namespace:eosio
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^   bool operator == ( const optional<T>& left, const optional<T>& right ) {$/;"	f	namespace:eosio
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/public_key.hpp	/^      friend bool operator == ( const public_key& a, const public_key& b ) {$/;"	f	struct:eosio::public_key
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      friend bool operator == ( const extended_symbol& a, const extended_symbol& b ) {$/;"	f	struct:eosio::extended_symbol
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         bool   operator ==( const block_timestamp& t )const   { return slot == t.slot; }$/;"	f	class:eosio::block_timestamp
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        bool   operator ==( const time_point& t )const                              { return elapsed._count ==t.elapsed._count; }$/;"	f	class:eosio::time_point
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        bool operator==(const microseconds& c)const { return _count == c._count; }$/;"	f	class:eosio::microseconds
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool      operator == ( const time_point_sec& a, const time_point_sec& b ) { return a.utc_seconds == b.utc_seconds; }$/;"	f	class:eosio::time_point_sec
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^      friend bool operator==( const name& a, const name& b ) { return a.value == b.value; }$/;"	f	struct:eosio::name
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator==( const int32_t& i, const signed_int& v )    { return i       == v.value; }$/;"	f	struct:signed_int
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator==( const signed_int& i, const int32_t& v )    { return i.value == v; }$/;"	f	struct:signed_int
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator==( const signed_int& i, const signed_int& v ) { return i.value == v.value; }$/;"	f	struct:signed_int
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator==( const uint32_t& i, const unsigned_int& v )     { return i       == v.value; }$/;"	f	struct:unsigned_int
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator==( const unsigned_int& i, const uint32_t& v )     { return i.value == v; }$/;"	f	struct:unsigned_int
+operator ==	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator==( const unsigned_int& i, const unsigned_int& v ) { return i.value == v.value; }$/;"	f	struct:unsigned_int
+operator >	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend bool operator>( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator >	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         bool   operator > ( const block_timestamp& t )const   { return slot >  t.slot; }$/;"	f	class:eosio::block_timestamp
+operator >	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        bool   operator > ( const time_point& t )const                              { return elapsed._count > t.elapsed._count; }$/;"	f	class:eosio::time_point
+operator >	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool      operator > ( const time_point_sec& a, const time_point_sec& b )  { return a.utc_seconds > b.utc_seconds; }$/;"	f	class:eosio::time_point_sec
+operator >	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool operator>(const microseconds& a, const microseconds& b){ return a._count > b._count; }$/;"	f	class:eosio::microseconds
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      friend bool operator>=( const asset& a, const asset& b ) {$/;"	f	struct:eosio::asset
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         bool   operator >=( const block_timestamp& t )const   { return slot >= t.slot; }$/;"	f	class:eosio::block_timestamp
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        bool   operator >=( const time_point& t )const                              { return elapsed._count >=t.elapsed._count; }$/;"	f	class:eosio::time_point
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool      operator >= ( const time_point_sec& a, const time_point_sec& b )  { return a.utc_seconds >= b.utc_seconds; }$/;"	f	class:eosio::time_point_sec
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        friend bool operator>=(const microseconds& a, const microseconds& b){ return a._count >= b._count; }$/;"	f	class:eosio::microseconds
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator>=( const int32_t& i, const signed_int& v )    { return i       >= v.value; }$/;"	f	struct:signed_int
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator>=( const signed_int& i, const int32_t& v )    { return i.value >= v; }$/;"	f	struct:signed_int
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator>=( const signed_int& i, const signed_int& v ) { return i.value >= v.value; }$/;"	f	struct:signed_int
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator>=( const uint32_t& i, const unsigned_int& v )     { return i       >= v.value; }$/;"	f	struct:unsigned_int
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator>=( const unsigned_int& i, const uint32_t& v )     { return i.value >= v; }$/;"	f	struct:unsigned_int
+operator >=	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend bool operator>=( const unsigned_int& i, const unsigned_int& v ) { return i.value >= v.value; }$/;"	f	struct:unsigned_int
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, T (&v)[N] ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, T ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, boost::container::flat_set<T>& s ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, std::array<T,N>& v ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, std::map<K,V>& m ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, std::set<T>& s ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, std::string& v ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, vector<T>& v ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator >> ( DataStream& ds, vector<char>& v ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator>>( DataStream& ds, T& v ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator>>( DataStream& ds, boost::container::flat_map<K,V>& m ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^DataStream& operator>>( DataStream& ds, std::tuple<Args...>& t ) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator>>(datastream<Stream>& ds, bool& d) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator>>(datastream<Stream>& ds, checksum160& cs) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator>>(datastream<Stream>& ds, checksum256& d) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator>>(datastream<Stream>& ds, checksum512& cs) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator>>(datastream<Stream>& ds, key256& d) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^inline datastream<Stream>& operator>>(datastream<Stream>& ds, public_key& pubkey) {$/;"	f	namespace:eosio
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         friend inline eosio::datastream<Stream>& operator>> (eosio::datastream<Stream>& ds, optional& op)$/;"	f	class:eosio::optional
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend DataStream& operator >> ( DataStream& ds, signed_int& vi ){$/;"	f	struct:signed_int
+operator >>	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    friend DataStream& operator >> ( DataStream& ds, unsigned_int& vi ){$/;"	f	struct:unsigned_int
+operator T	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    operator T()const { return static_cast<T>(value); }$/;"	f	struct:unsigned_int
+operator bool	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         explicit operator bool()const  { return _valid;  }$/;"	f	class:eosio::optional
+operator int32_t	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    operator int32_t()const { return value; }$/;"	f	struct:signed_int
+operator symbol_name	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      operator symbol_name()const { return value; }$/;"	f	struct:eosio::symbol_type
+operator time_point	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         operator time_point() const {$/;"	f	class:eosio::block_timestamp
+operator time_point	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        operator time_point()const { return time_point( eosio::seconds( utc_seconds) ); }$/;"	f	class:eosio::time_point_sec
+operator uint64_t	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      struct intc { enum e{ value = I }; operator uint64_t()const{ return I; }  };$/;"	f	struct:eosio::multi_index::intc
+operator uint64_t	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^      operator uint64_t()const { return value; }$/;"	f	struct:eosio::name
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional( U&& u )$/;"	f	class:eosio::optional
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional( const optional& o )$/;"	f	class:eosio::optional
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional( const optional<U>& o )$/;"	f	class:eosio::optional
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional( optional& o )$/;"	f	class:eosio::optional
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional( optional&& o )$/;"	f	class:eosio::optional
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional( optional<U>& o )$/;"	f	class:eosio::optional
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional( optional<U>&& o )$/;"	f	class:eosio::optional
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         optional():_valid(false){}$/;"	f	class:eosio::optional
+optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^   class optional {$/;"	c	namespace:eosio
+pack	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^bytes pack( const T& value ) {$/;"	f	namespace:eosio
+pack_size	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^size_t pack_size( const T& value ) {$/;"	f	namespace:eosio
+padded_bytes	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^         static constexpr size_t padded_bytes() { return num_words() * sizeof(word_t) - Size; }$/;"	f	class:eosio::fixed_key
+permission	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      permission_name permission;$/;"	m	struct:eosio::permission_level
+permission	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^   permission_name permission;$/;"	m	struct:account_permission
+permission_level	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      permission_level( account_name a, permission_name p ):actor(a),permission(p){}$/;"	f	struct:eosio::permission_level
+permission_level	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      permission_level(){}$/;"	f	struct:eosio::permission_level
+permission_level	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^   struct permission_level {$/;"	s	namespace:eosio
+permission_name	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef uint64_t permission_name;$/;"	t
+pk_value	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^      constexpr static uint64_t pk_value = SingletonName;$/;"	m	class:eosio::singleton
+pos	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      T pos()const { return _pos; }$/;"	f	class:eosio::datastream
+precision	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      uint64_t precision()const { return value & 0xff; }$/;"	f	struct:eosio::symbol_type
+primary_key	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            uint64_t primary_key()const { return 0; }$/;"	f	struct:eosio::currency::fee_schedule
+primary_key	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            uint64_t primary_key()const { return balance.symbol.name(); }$/;"	f	struct:eosio::currency::account
+primary_key	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            uint64_t primary_key()const { return supply.symbol.name(); }$/;"	f	struct:eosio::currency::currency_stats
+primary_key	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         uint64_t primary_key() const { return pk_value; }$/;"	f	struct:eosio::singleton::row
+print	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      void print()const {$/;"	f	struct:eosio::asset
+print	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      void print()const {$/;"	f	struct:eosio::extended_asset
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( T&& t ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( bool val ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( const char c ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( const char* ptr ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( const fixed_key<Size>& val ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( const std::string& s) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( double num ) { printdf( num ); }$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( fixed_key<Size>& val ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( float num ) { printsf( num ); }$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( int num ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( int128_t num ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( int32_t num ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( int64_t num ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( long double num ) { printqf( &num ); }$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( name name ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( std::string& s) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( uint128_t num ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( uint32_t num ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( uint64_t num ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print( unsigned int num ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   void print( Arg&& a, Args&&... args ) {$/;"	f	namespace:eosio
+print	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      void print()const {$/;"	f	struct:eosio::extended_symbol
+print	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      void print(bool show_precision=true)const {$/;"	f	struct:eosio::symbol_type
+print_f	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print_f( const char* s ) {$/;"	f	namespace:eosio
+print_f	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   inline void print_f( const char* s, Arg val, Args... rest ) {$/;"	f	namespace:eosio
+producer_key	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^   struct producer_key {$/;"	s	namespace:eosio
+producer_name	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      account_name producer_name;$/;"	m	struct:eosio::producer_key
+producer_schedule	/usr/local/eosio.wasmsdk/include/eosiolib/producer_schedule.hpp	/^   struct producer_schedule {$/;"	s	namespace:eosio
+producers	/usr/local/eosio.wasmsdk/include/eosiolib/producer_schedule.hpp	/^      std::vector<producer_key>    producers;$/;"	m	struct:eosio::producer_schedule
+ptr	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            char* ptr() const$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+ptr	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         T*       ptr()      { return reinterpret_cast<T*>(&_value); }$/;"	f	class:eosio::optional
+ptr	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         const T* ptr()const { return reinterpret_cast<const T*>(&_value); }$/;"	f	class:eosio::optional
+public_key	/usr/local/eosio.wasmsdk/include/eosiolib/public_key.hpp	/^   struct public_key {$/;"	s	namespace:eosio
+public_key	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^struct public_key {$/;"	s
+put	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline bool put(char c) {$/;"	f	class:eosio::datastream
+put	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     inline bool     put(char )                      { ++_size; return  true;    }$/;"	f	class:eosio::datastream
+quantity	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            asset        quantity;$/;"	m	struct:eosio::currency::issue
+quantity	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            asset        quantity;$/;"	m	struct:eosio::currency::transfer
+rbegin	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_reverse_iterator rbegin()const  { return crbegin(); }$/;"	f	struct:eosio::multi_index::index
+rbegin	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_reverse_iterator rbegin()const  { return crbegin(); }$/;"	f	class:eosio::multi_index
+read	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline bool read( char* d, size_t s ) {$/;"	f	class:eosio::datastream
+realloc	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^      void* realloc(void* ptr, uint32_t size)$/;"	f	class:eosio::memory_manager	file:
+realloc	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^void* realloc(void* ptr, size_t size)$/;"	f
+realloc_in_place	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^         char* realloc_in_place(char* const ptr, uint32_t size, uint32_t* orig_ptr_size)$/;"	f	class:eosio::memory_manager::memory
+ref	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         T&       ref()      { return *ptr(); }$/;"	f	class:eosio::optional
+ref	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         const T& ref()const { return *ptr(); }$/;"	f	class:eosio::optional
+ref_block_num	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      uint16_t        ref_block_num;$/;"	m	class:eosio::transaction_header
+ref_block_prefix	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      uint32_t        ref_block_prefix;$/;"	m	class:eosio::transaction_header
+reflector	/usr/local/eosio.wasmsdk/include/eosiolib/reflect.hpp	/^  struct reflector {$/;"	s	namespace:eosio
+remaining	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline size_t remaining()const  { return _end - _pos; }$/;"	f	class:eosio::datastream
+remaining	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     inline size_t   remaining()const                 { return 0;                 }$/;"	f	class:eosio::datastream
+remove	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         void remove( ) {$/;"	f	class:eosio::singleton
+rend	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_reverse_iterator rend()const    { return crend(); }$/;"	f	struct:eosio::multi_index::index
+rend	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_reverse_iterator rend()const    { return crend(); }$/;"	f	class:eosio::multi_index
+require_auth	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^   void require_auth(const permission_level& level) {$/;"	f	namespace:eosio
+require_recipient	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^   void require_recipient( account_name name, accounts... remaining_accounts ){$/;"	f	namespace:eosio
+reset	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         void reset()$/;"	f	class:eosio::optional
+row	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^      struct row {$/;"	s	class:eosio::singleton
+sbrk	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^void* sbrk(size_t num_bytes) {$/;"	f
+scope_name	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef uint64_t scope_name;$/;"	t
+sec_since_epoch	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        uint32_t            sec_since_epoch()const  { return uint32_t(elapsed.count() \/ 1000000); }$/;"	f	class:eosio::time_point
+sec_since_epoch	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        uint32_t sec_since_epoch()const { return utc_seconds; }$/;"	f	class:eosio::time_point_sec
+secondary_extractor_type	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            typedef Extractor  secondary_extractor_type;$/;"	t	struct:eosio::multi_index::index
+secondary_extractor_type	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^   typedef Extractor secondary_extractor_type;$/;"	t	struct:eosio::indexed_by
+secondary_key_traits	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^   struct secondary_key_traits<key256> {$/;"	s	namespace:eosio::_multi_index_detail
+secondary_key_type	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            typedef typename std::decay<decltype( Extractor()(nullptr) )>::type secondary_key_type;$/;"	t	struct:eosio::multi_index::index
+seconds	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^  inline microseconds seconds( int64_t s ) { return microseconds( s * 1000000 ); }$/;"	f	namespace:eosio
+seekp	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline bool seekp(size_t p) { _pos = _start + p; return _pos <= _end; }$/;"	f	class:eosio::datastream
+seekp	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     inline bool     seekp(size_t p)                  { _size = p;  return true;  }$/;"	f	class:eosio::datastream
+send	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      void send() const {$/;"	f	struct:eosio::action
+send	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      void send(const uint128_t& sender_id, account_name payer, bool replace_existing = false) const {$/;"	f	class:eosio::transaction
+send_context_free	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^      void send_context_free() const {$/;"	f	struct:eosio::action
+sender_id	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      uint128_t sender_id;$/;"	m	struct:eosio::onerror
+sent_trx	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      bytes     sent_trx;$/;"	m	struct:eosio::onerror
+set	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         void set( const T& value, account_name bill_to_account ) {$/;"	f	class:eosio::singleton
+set_amount	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      void set_amount( int64_t a ) {$/;"	f	struct:eosio::asset
+set_blockchain_parameters	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^   void set_blockchain_parameters(const eosio::blockchain_parameters& params) {$/;"	f	namespace:eosio
+set_from_word_sequence	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^         static void set_from_word_sequence(const std::array<Word, NumWords>& arr, fixed_key<Size>& key)$/;"	f	class:eosio::fixed_key
+set_time_point	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^      void set_time_point(const time_point& t) {$/;"	f	class:eosio::block_timestamp
+set_time_point	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^      void set_time_point(const time_point_sec& t) {$/;"	f	class:eosio::block_timestamp
+signature	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^struct signature {$/;"	s
+signed_int	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    signed_int( int32_t v = 0 ):value(v){}$/;"	f	struct:signed_int
+signed_int	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^struct signed_int {$/;"	s
+singleton	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         singleton( account_name code, scope_name scope ) : _t( code, scope ) {}$/;"	f	class:eosio::singleton
+singleton	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^   class singleton$/;"	c	namespace:eosio
+size	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            uint32_t size() const$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+size	/usr/local/eosio.wasmsdk/include/eosiolib/eosiolib.cpp	/^            void size(uint32_t val)$/;"	f	class:eosio::memory_manager::memory::buffer_ptr
+sizeof	/usr/local/eosio.wasmsdk/include/eosiolib/print.hpp	/^   static_assert( sizeof(long) == sizeof(int), "unexpected size difference" );$/;"	m	namespace:eosio
+skip	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline void skip( size_t s ){ _pos += s; }$/;"	f	class:eosio::datastream
+skip	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     inline bool     skip( size_t s )                 { _size += s; return true;  }$/;"	f	class:eosio::datastream
+slot	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         uint32_t slot;$/;"	m	class:eosio::block_timestamp
+stats	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         typedef eosio::multi_index<N(stat), currency_stats> stats;$/;"	t	class:eosio::currency
+std	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^namespace std {$/;"	n
+storage_type	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         typedef typename std::aligned_storage<sizeof(T), alignof(T)>::type storage_type;$/;"	t	class:eosio::optional
+string_to_name	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^   static constexpr uint64_t string_to_name( const char* str ) {$/;"	f	namespace:eosio
+string_to_symbol	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^   static constexpr uint64_t string_to_symbol( uint8_t precision, const char* str ) {$/;"	f	namespace:eosio
+sub_balance	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^          void sub_balance( account_name owner, asset value, const currency_stats& st ) {$/;"	f	class:eosio::currency
+supply	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            asset          supply;$/;"	m	struct:eosio::currency::currency_stats
+symbol	/usr/local/eosio.wasmsdk/include/eosiolib/asset.hpp	/^      symbol_type  symbol;$/;"	m	struct:eosio::asset
+symbol_name	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^   typedef uint64_t symbol_name;$/;"	t	namespace:eosio
+symbol_name_length	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^   static constexpr uint32_t symbol_name_length( symbol_name tmp ) {$/;"	f	namespace:eosio
+symbol_type	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      symbol_type() { }$/;"	f	struct:eosio::symbol_type
+symbol_type	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      symbol_type(symbol_name s): value(s) { }$/;"	f	struct:eosio::symbol_type
+symbol_type	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^   struct symbol_type {$/;"	s	namespace:eosio
+table	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^      typedef eosio::multi_index<SingletonName, row> table;$/;"	t	class:eosio::singleton
+table_name	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^               table_name   = TableName,$/;"	e	enum:eosio::multi_index::index::constants
+table_name	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef uint64_t table_name;$/;"	t
+target_block_cpu_usage_pct	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t target_block_cpu_usage_pct;$/;"	m	struct:eosio::blockchain_parameters
+target_block_net_usage_pct	/usr/local/eosio.wasmsdk/include/eosiolib/privileged.hpp	/^      uint32_t target_block_net_usage_pct;$/;"	m	struct:eosio::blockchain_parameters
+tellp	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline size_t tellp()const      { return size_t(_pos - _start); }$/;"	f	class:eosio::datastream
+tellp	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     inline size_t   tellp()const                     { return _size;             }$/;"	f	class:eosio::datastream
+time	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef uint32_t time;$/;"	t
+time_point	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        explicit time_point( microseconds e = microseconds() ) :elapsed(e){}$/;"	f	class:eosio::time_point
+time_point	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^  class time_point {$/;"	c	namespace:eosio
+time_point_sec	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        explicit time_point_sec(uint32_t seconds )$/;"	f	class:eosio::time_point_sec
+time_point_sec	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec( const time_point& t )$/;"	f	class:eosio::time_point_sec
+time_point_sec	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        time_point_sec()$/;"	f	class:eosio::time_point_sec
+time_point_sec	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^  class time_point_sec$/;"	c	namespace:eosio
+time_since_epoch	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        const microseconds& time_since_epoch()const { return elapsed; }$/;"	f	class:eosio::time_point
+to	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            account_name to;$/;"	m	struct:eosio::currency::issue
+to	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            account_name to;$/;"	m	struct:eosio::currency::transfer
+to_seconds	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        int64_t to_seconds()const { return _count\/1000000; }$/;"	f	class:eosio::microseconds
+to_string	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^      std::string to_string() const {$/;"	f	struct:eosio::name
+to_time_point	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^         time_point to_time_point() const {$/;"	f	class:eosio::block_timestamp
+transaction	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      transaction(time_point_sec exp = time_point_sec(now() + 60)) : transaction_header( exp ) {}$/;"	f	class:eosio::transaction
+transaction	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^   class transaction : public transaction_header {$/;"	c	namespace:eosio
+transaction_extensions	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      extensions_type transaction_extensions;$/;"	m	class:eosio::transaction
+transaction_header	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      transaction_header( time_point_sec exp = time_point_sec(now() + 60) )$/;"	f	class:eosio::transaction_header
+transaction_header	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^   class transaction_header {$/;"	c	namespace:eosio
+transaction_id_type	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef struct checksum256 transaction_id_type;$/;"	t	typeref:struct:checksum256
+transfer	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^         struct transfer$/;"	s	class:eosio::currency
+transform_indices	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      static constexpr auto transform_indices( ) {$/;"	f	class:eosio::multi_index
+trim_right_dots	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^      static void trim_right_dots(std::string& str ) {$/;"	f	struct:eosio::name
+type	/usr/local/eosio.wasmsdk/include/eosiolib/public_key.hpp	/^      unsigned_int        type;$/;"	m	struct:eosio::public_key
+unpack	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^T unpack( const char* buffer, size_t len ) {$/;"	f	namespace:eosio
+unpack	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^T unpack( const vector<char>& bytes ) {$/;"	f	namespace:eosio
+unpack_action_data	/usr/local/eosio.wasmsdk/include/eosiolib/action.hpp	/^   T unpack_action_data() {$/;"	f	namespace:eosio
+unpack_sent_trx	/usr/local/eosio.wasmsdk/include/eosiolib/transaction.hpp	/^      transaction unpack_sent_trx() const {$/;"	f	struct:eosio::onerror
+unsigned_int	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    unsigned_int( T v ):value(v){}$/;"	f	struct:unsigned_int
+unsigned_int	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    unsigned_int( uint32_t v = 0 ):value(v){}$/;"	f	struct:unsigned_int
+unsigned_int	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^struct unsigned_int {$/;"	s
+upper_bound	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator upper_bound( const secondary_key_type& secondary )const {$/;"	f	struct:eosio::multi_index::index
+upper_bound	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            const_iterator upper_bound( secondary_key_type&& secondary )const {$/;"	f	struct:eosio::multi_index::index
+upper_bound	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      const_iterator upper_bound( uint64_t primary )const {$/;"	f	class:eosio::multi_index
+utc_seconds	/usr/local/eosio.wasmsdk/include/eosiolib/time.hpp	/^        uint32_t utc_seconds;$/;"	m	class:eosio::time_point_sec
+valid	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline bool valid()const { return _pos <= _end && _pos >= _start;  }$/;"	f	class:eosio::datastream
+valid	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     inline bool     valid()const                     { return true;              }$/;"	f	class:eosio::datastream
+valid	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         bool valid()const     { return _valid;  }$/;"	f	class:eosio::optional
+validate_index_name	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^            constexpr static bool validate_index_name( uint64_t n ) {$/;"	f	struct:eosio::multi_index::index
+validate_table_name	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      constexpr static bool validate_table_name( uint64_t n ) {$/;"	f	class:eosio::multi_index
+value	/usr/local/eosio.wasmsdk/include/eosiolib/multi_index.hpp	/^      struct intc { enum e{ value = I }; operator uint64_t()const{ return I; }  };$/;"	e	enum:eosio::multi_index::intc::e
+value	/usr/local/eosio.wasmsdk/include/eosiolib/singleton.hpp	/^         T value;$/;"	m	struct:eosio::singleton::row
+value	/usr/local/eosio.wasmsdk/include/eosiolib/symbol.hpp	/^      symbol_name value;$/;"	m	struct:eosio::symbol_type
+value	/usr/local/eosio.wasmsdk/include/eosiolib/types.hpp	/^      account_name value = 0;$/;"	m	struct:eosio::name
+value	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    int32_t value;$/;"	m	struct:signed_int
+value	/usr/local/eosio.wasmsdk/include/eosiolib/varint.hpp	/^    uint32_t value;$/;"	m	struct:unsigned_int
+value_type	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         typedef T value_type;$/;"	t	class:eosio::optional
+version	/usr/local/eosio.wasmsdk/include/eosiolib/producer_schedule.hpp	/^      uint32_t                     version;   \/\/\/< sequentially incrementing version number$/;"	m	struct:eosio::producer_schedule
+weight_type	/usr/local/eosio.wasmsdk/include/eosiolib/types.h	/^typedef uint16_t weight_type;$/;"	t
+whitelist	/usr/local/eosio.wasmsdk/include/eosiolib/currency.hpp	/^            bool     whitelist = true;$/;"	m	struct:eosio::currency::account
+word_t	/usr/local/eosio.wasmsdk/include/eosiolib/fixed_key.hpp	/^         typedef uint128_t word_t;$/;"	t	class:eosio::fixed_key
+write	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^      inline bool write( const char* d, size_t s ) {$/;"	f	class:eosio::datastream
+write	/usr/local/eosio.wasmsdk/include/eosiolib/datastream.hpp	/^     inline bool     write( const char* ,size_t s )  { _size += s; return true;  }$/;"	f	class:eosio::datastream
+~optional	/usr/local/eosio.wasmsdk/include/eosiolib/optional.hpp	/^         ~optional(){ reset(); }$/;"	f	class:eosio::optional

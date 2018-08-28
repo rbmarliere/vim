@@ -39,7 +39,7 @@ set autowrite
 " automatically re-read file changed outside vim
 set autoread
 " look for tags in .git/
-set tags=.git/tags,tags
+set tags+=.git/tags,tags,$HOME/.vim/eosiolib.tags
 " horizontal splits pops below
 set splitbelow
 " vertical splits pops right

@@ -35,6 +35,8 @@ set statusline=
 set hidden
 " setting default <Leader> as a comma
 let mapleader=' '
+" showing trailing spaces
+set list listchars=tab:\~\ ,trail:~
 
 "------------MAPPINGS-
 nnoremap - :Ex<CR>

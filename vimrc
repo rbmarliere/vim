@@ -1,10 +1,11 @@
 " ------------GENERAL-
+" using pathogen as another submodule
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+set background=light
 set path+=/usr/local/eosio.wasmsdk/include
 set encoding=utf-8
 " https://superuser.com/questions/383457/how-to-fix-vim-textwidth-during-editing#383473
 set formatoptions+=aw
-" using pathogen as another submodule
-runtime bundle/vim-pathogen/autoload/pathogen.vim
 " delete recursively with netrw
 let g:netrw_localrmdir="rm -r"
 " mouse support for resizing
@@ -13,7 +14,7 @@ set ttymouse=xterm2
 " requiring latest vim settings (required by vundle)
 set nocompatible
 " syntax highlight
-syntax on
+syntax enable
 " making use of system clipboard
 set clipboard=unnamed
 " tab spacing settings
@@ -59,34 +60,13 @@ set laststatus=2
 "set statusline=%{expand('%:h')}/%t\ [%{strlen(&fenc)?&fenc:'none'},%{&ff}]\ %h%m%r%y%=%c,%l/%L\ %P
 set statusline=
 " better looking vert split char
-set fillchars=vert:│,stl:─,stlnc:─
+"set fillchars=vert:│,stl:─,stlnc:─
 " showing trailing spaces
-set list listchars=tab:\─\ ,trail:─
+"set list listchars=tab:\─\ ,trail:─
 " hidden buffers
 set hidden
-" disabling netrw banner
-"let g:netrw_banner=0
 " setting default <Leader> as a comma
 let mapleader=' '
-" saving and restoring folds automatically
-autocmd BufWinLeave .* mkview
-autocmd BufWinEnter .* silent loadview
-
-"--------------COLORS-
-"set term=screen-256color
-set t_Co=256
-set background=dark
-highlight Visual       cterm=none ctermbg=green ctermfg=darkgrey
-highlight DiffAdd                 ctermbg=black ctermfg=green
-highlight DiffChange              ctermbg=black ctermfg=green
-highlight DiffDelete              ctermbg=black ctermfg=green
-highlight DiffText                ctermbg=88    ctermfg=green
-highlight StatusLine   cterm=none ctermbg=none  ctermfg=green
-highlight StatusLineNC cterm=none ctermbg=none  ctermfg=28
-highlight TabLine      cterm=none ctermbg=none  ctermfg=28
-highlight TabLineFill  cterm=none ctermbg=none
-highlight TabLineSel   cterm=none ctermbg=none  ctermfg=green
-highlight VertSplit    cterm=none ctermbg=none  ctermfg=28
 
 "------------MAPPINGS-
 " disabling highlight in searching
@@ -101,8 +81,6 @@ nnoremap <Leader>W :wa<CR>
 nnoremap <Leader>W :w !sudo tee % > /dev/null<CR>
 "cnoremap w!! w !sudo tee % >/dev/null
 " tests
-nnoremap <Leader>t :!clear && phpunit 
-nnoremap <Leader>T :call TestFunction()<CR>
 " make Y consistent with D and C
 nnoremap Y y$
 " paste in new line with P
@@ -131,7 +109,7 @@ nnoremap <silent> <Leader>fws :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:no
 " managing buffers
 nnoremap <Leader>. :ls<CR>:b
 " disabling Ex Mode
-"nnoremap Q <Nop>
+nnoremap Q <Nop>
 " firing up netrw
 nnoremap - :Ex<CR>
 " clearing all marks
@@ -146,17 +124,6 @@ nnoremap <Leader>x :!chmod +x %<CR>
 cnoremap <expr> <CR> CCR()
 
 "------------FUNCTIONS-
-function! TestFunction()
-	let lnum=line(".")
-	let col=col(".")
-	let func=getline(search("\\h\\+\\s\\+\\h\\+\\s*(.*)", 'bW'))
-	let func=substitute(func, '\v(public|protected|private|function)', '', 'g')
-	let func=substitute(func, '()', '', 'g')
-	let func=substitute(func, ' ', '', 'g')
-	let cmd="!clear && phpunit % --filter " . func
-	execute cmd
-	call search("\\%" . lnum . "l" . "\\%" . col .  "c")
-endfunction
 " make list-like commands more intuitive
 function! CCR()
     let cmdline = getcmdline()
@@ -202,16 +169,6 @@ autocmd BufReadPost *
 	 \ |   exe "normal! g`\""
 	 \ | endif
 
-"------------CTRLP-
-" ignore list
-let g:ctrlp_user_command=['.git', 'cd %s && git ls-files -co --exclude-standard']
-" we wanna search only inside the current opened folder
-let g:ctrlp_working_path_mode=0
-" unlimited number of files
-let g:ctrlp_max_files=0
-" making tags modes available by default
-let g:ctrlp_extensions=['buffertag']
-
 "------------GNUPG-
 " tell the GnuPG plugin to armor new files.
 let g:GPGPreferArmor=1
@@ -232,28 +189,6 @@ function! SetGPGOptions()
 	set foldopen=insert
 endfunction
 
-"--------PHPCSFIXER-
-let g:php_cs_fixer_config_file=$HOME."/.php_cs"
-
-"------PHPNAMESPACE-
-autocmd FileType php noremap <Leader>u :call PhpInsertUse()<CR>
-let g:php_namespace_sort_after_insert=1
-
-"---------PHPSYNTAX-
-function! PhpSyntaxOverride()
-    hi! def link phpComment SpecialKey
-    hi! def link phpDocParam phpType
-    hi! def link phpDocTags  phpDefine
-    hi! def link phpFunctions PreProc
-    hi! def link phpKeyword PreProc
-    hi! def link phpMethodsVar Boolean
-    hi! def link phpVarSelector Keyword
-endfunction
-augroup phpSyntaxOverride
-  autocmd!
-  autocmd FileType php call PhpSyntaxOverride()
-augroup END
-
 "---------NAVIGATOR-
 let g:tmux_navigator_save_on_switch=1
 
@@ -262,3 +197,4 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+colorscheme solarized

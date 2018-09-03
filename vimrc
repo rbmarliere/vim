@@ -37,38 +37,30 @@ set hidden
 let mapleader=' '
 
 "------------MAPPINGS-
-" disabling highlight in searching
-nnoremap <Leader><Space> :nohlsearch<CR>
-" clearing buffers
-nnoremap <Leader>Q :qa<CR>
-" saving buffers
-nnoremap <Leader>w :w<CR>
-nnoremap <Leader>W :w !sudo tee % > /dev/null<CR>
-" make Y consistent with D and C
-nnoremap Y y$
-" paste in new line with P
-nnoremap P :pu<CR>
-" session management
-nnoremap <Leader>ss :mksession! ~/.vim/sessions/
-nnoremap <Leader>rs :source ~/.vim/sessions/
-" easy navigation between splits
-nnoremap <C-l> <C-w>l
-nnoremap <C-k> <C-w>k
-nnoremap <C-j> <C-w>j
-nnoremap <C-h> <C-w>h
-" resize vsplit
-nnoremap <Leader>h :vertical resize +5<CR>
-nnoremap <Leader>l :vertical resize -5<CR>
-nnoremap <Leader>k :resize +5<CR>
-nnoremap <Leader>j :resize -5<CR>
+nnoremap - :Ex<CR>
 nnoremap 50 <C-W>=
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <Leader>. :ls<CR>
+nnoremap <Leader><Space> :nohlsearch<CR>
+nnoremap <Leader>Q :qa<CR>
+nnoremap <Leader>W :w !sudo tee % > /dev/null<CR>
+nnoremap <Leader>h :vertical resize +5<CR>
+nnoremap <Leader>j :resize -5<CR>
+nnoremap <Leader>k :resize +5<CR>
+nnoremap <Leader>l :vertical resize -5<CR>
+nnoremap <Leader>rs :source ~/.vim/sessions/
+nnoremap <Leader>ss :mksession! ~/.vim/sessions/
+nnoremap <Leader>w :w<CR>
+nnoremap P :pu<CR>
+nnoremap Y y$
 " Use | and _ to split windows (while preserving original behaviour of [count]bar and [count]_).
 nnoremap <expr><silent> <Bar> v:count == 0 ? "<C-W>v<C-W><Right>" : ":<C-U>normal! 0".v:count."<Bar><CR>"
 nnoremap <expr><silent> _ v:count == 0 ? "<C-W>s<C-W><Down>"  : ":<C-U>normal! ".v:count."_<CR>"
-" removing trailing spaces
+" remove trailing spaces
 nnoremap <silent> <Leader>fws :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
-" firing up netrw
-nnoremap - :Ex<CR>
 " https://gist.github.com/romainl/047aca21e338df7ccf771f96858edb86
 cnoremap <expr> <CR> CCR()
 

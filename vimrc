@@ -1,26 +1,12 @@
 " ------------GENERAL-
-" using pathogen as another submodule
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-set background=light
+" add eosiolib to path
 set path+=/usr/local/eosio.wasmsdk/include
+" use utf8 as default
 set encoding=utf-8
-" https://superuser.com/questions/383457/how-to-fix-vim-textwidth-during-editing#383473
-set formatoptions+=aw
 " delete recursively with netrw
 let g:netrw_localrmdir="rm -r"
-" mouse support for resizing
-set mouse=n
-set ttymouse=xterm2
-" requiring latest vim settings (required by vundle)
-set nocompatible
-" syntax highlight
-syntax enable
-" making use of system clipboard
-set clipboard=unnamed
 " tab spacing settings
 set tabstop=4 softtabstop=4 shiftwidth=4 smarttab expandtab
-" normal backspace
-set backspace=indent,eol,start
 " activating line numbers
 set number
 " avoiding E21: Cannot make changes, 'Modifiable' is off
@@ -29,40 +15,22 @@ set modifiable
 set noerrorbells visualbell t_vb=
 " autocomplete in current buffer, windows, buffers, closed buffers
 set complete=.,w,b,u
-" line numbers are now relative to the current one
-set relativenumber
 " putting all swap and backup files on a specific folder
 set dir=$HOME/.vim/swp/
 set bdir=$HOME/.vim/bkp/
-" wrap lines
-set wrap
-" auto writing modified buffers on switching buffers
-set autowrite
 " automatically re-read file changed outside vim
 set autoread
 " look for tags in .git/
 set tags+=.git/tags,tags,$HOME/.vim/eosiolib.tags
-" horizontal splits pops below
-set splitbelow
-" vertical splits pops right
-set splitright
 " when searching a word, highlight it
 set hlsearch
 " highlight a searching word as you type it
 set incsearch
-" ignoring case, case insensitive
-set ignorecase
 " ignore case if pattern is all lower case
+set ignorecase
 set smartcase
-" always show status bar
-set laststatus=2
-" cool statusline from http://got-ravings.blogspot.com.br/2008/08/vim-pr0n-making-statuslines-that-own.html
-"set statusline=%{expand('%:h')}/%t\ [%{strlen(&fenc)?&fenc:'none'},%{&ff}]\ %h%m%r%y%=%c,%l/%L\ %P
+" disable distro default statusline
 set statusline=
-" better looking vert split char
-"set fillchars=vert:│,stl:─,stlnc:─
-" showing trailing spaces
-"set list listchars=tab:\─\ ,trail:─
 " hidden buffers
 set hidden
 " setting default <Leader> as a comma
@@ -72,15 +40,10 @@ let mapleader=' '
 " disabling highlight in searching
 nnoremap <Leader><Space> :nohlsearch<CR>
 " clearing buffers
-nnoremap <Leader>q :bufdo bd<CR>
-nnoremap <Leader>Q :qa!<CR>
-nnoremap <Leader>d :bd<CR>
+nnoremap <Leader>Q :qa<CR>
 " saving buffers
 nnoremap <Leader>w :w<CR>
-nnoremap <Leader>W :wa<CR>
 nnoremap <Leader>W :w !sudo tee % > /dev/null<CR>
-"cnoremap w!! w !sudo tee % >/dev/null
-" tests
 " make Y consistent with D and C
 nnoremap Y y$
 " paste in new line with P
@@ -93,8 +56,6 @@ nnoremap <C-l> <C-w>l
 nnoremap <C-k> <C-w>k
 nnoremap <C-j> <C-w>j
 nnoremap <C-h> <C-w>h
-" easy creation of tabs
-nnoremap <C-W><C-T> :tabe<CR>
 " resize vsplit
 nnoremap <Leader>h :vertical resize +5<CR>
 nnoremap <Leader>l :vertical resize -5<CR>
@@ -106,20 +67,8 @@ nnoremap <expr><silent> <Bar> v:count == 0 ? "<C-W>v<C-W><Right>" : ":<C-U>norma
 nnoremap <expr><silent> _ v:count == 0 ? "<C-W>s<C-W><Down>"  : ":<C-U>normal! ".v:count."_<CR>"
 " removing trailing spaces
 nnoremap <silent> <Leader>fws :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
-" managing buffers
-nnoremap <Leader>. :ls<CR>:b
-" disabling Ex Mode
-nnoremap Q <Nop>
 " firing up netrw
 nnoremap - :Ex<CR>
-" clearing all marks
-nnoremap <Leader>dm :delm! \| delm A-Z0-9<CR>
-" tab cfg switch
-nnoremap <Leader>chtaa :set tabstop=8 softtabstop=8 shiftwidth=8 nosmarttab noexpandtab<CR>
-nnoremap <Leader>chtab :set tabstop=4 softtabstop=4 shiftwidth=4 smarttab expandtab<CR>
-" helpers
-nnoremap <Leader>v :tabe $MYVIMRC<CR>
-nnoremap <Leader>x :!chmod +x %<CR>
 " https://gist.github.com/romainl/047aca21e338df7ccf771f96858edb86
 cnoremap <expr> <CR> CCR()
 
@@ -162,13 +111,6 @@ function! CCR()
     endif
 endfunction
 
-"------------AUTOCOMMANDS-
-" :h last-position-jump
-autocmd BufReadPost *
-	 \ if line("'\"") > 1 && line("'\"") <= line("$") && &ft !~# 'commit' 
-	 \ |   exe "normal! g`\""
-	 \ | endif
-
 "------------GNUPG-
 " tell the GnuPG plugin to armor new files.
 let g:GPGPreferArmor=1
@@ -189,12 +131,10 @@ function! SetGPGOptions()
 	set foldopen=insert
 endfunction
 
-"---------NAVIGATOR-
-let g:tmux_navigator_save_on_switch=1
-
 "----------PATHOGEN-
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
-
+set background=light
 colorscheme solarized

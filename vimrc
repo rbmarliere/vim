@@ -125,6 +125,11 @@ function! SetGPGOptions()
 	set foldopen=insert
 endfunction
 
+augroup abi
+  au!
+  autocmd BufNewFile,BufRead *.abi set filetype=json
+augroup END
+
 "----------PATHOGEN-
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()

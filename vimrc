@@ -41,6 +41,7 @@ set list listchars=tab:\~\ ,trail:~
 "------------MAPPINGS-
 nnoremap - :Ex<CR>
 nnoremap 50 <C-W>=
+nnoremap <C-w><C-t> :tabe<CR>
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k

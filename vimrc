@@ -21,7 +21,7 @@ set bdir=$HOME/.vim/bkp/
 " automatically re-read file changed outside vim
 set autoread
 " look for tags in .git/
-set tags+=.git/tags,tags,$HOME/.vim/eosiolib.tags
+set tags+=.git/tags,tags,$HOME/.vim/eosiolib.tags,$HOME/.vim/help.tags
 " when searching a word, highlight it
 set hlsearch
 " highlight a searching word as you type it

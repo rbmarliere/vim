@@ -29,14 +29,21 @@ set incsearch
 " ignore case if pattern is all lower case
 set ignorecase
 set smartcase
-" disable distro default statusline
-set statusline=
 " hidden buffers
 set hidden
 " setting default <Leader> as a comma
 let mapleader=' '
 " showing trailing spaces
 set list listchars=tab:\~\ ,trail:~
+" http://got-ravings.blogspot.com.br/2008/08/vim-pr0n-making-statuslines-that-own.html
+set statusline=%{expand('%:h')}/%t\ [%{strlen(&fenc)?&fenc:'none'},%{&ff}]\ %h%m%r%y%=%c,%l/%L\ %P
+" always display statusline
+set laststatus=2
+
+augroup abi
+  au!
+  autocmd BufNewFile,BufRead *.abi set filetype=json
+augroup END
 
 "------------MAPPINGS-
 nnoremap - :Ex<CR>
@@ -126,10 +133,21 @@ function! SetGPGOptions()
 	set foldopen=insert
 endfunction
 
-augroup abi
-  au!
-  autocmd BufNewFile,BufRead *.abi set filetype=json
-augroup END
+"---------SYNTASTIC-
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_cpp_check_header = 1
+"let g:syntastic_cpp_compiler = "g++"
+"let g:syntastic_cpp_compiler_options = "-std=c++11 -Wall -Wextra -Wpedantic"
+let g:syntastic_cpp_include_dirs = ['/usr/local/eosio.wasmsdk/include','/home/eos/opt/boost/include','include']
+let g:syntastic_cpp_remove_include_errors=1
+"let g:syntastic_debug=3
+let g:syntastic_enable_signs=1
 
 "----------PATHOGEN-
 runtime bundle/vim-pathogen/autoload/pathogen.vim

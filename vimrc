@@ -142,11 +142,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_cpp_check_header = 1
-"let g:syntastic_cpp_compiler = "g++"
-"let g:syntastic_cpp_compiler_options = "-std=c++11 -Wall -Wextra -Wpedantic"
 let g:syntastic_cpp_include_dirs = ['/usr/local/eosio.wasmsdk/include','/home/eos/opt/boost/include','include']
 let g:syntastic_cpp_remove_include_errors=1
-"let g:syntastic_debug=3
 let g:syntastic_enable_signs=1
 
 "----------PATHOGEN-

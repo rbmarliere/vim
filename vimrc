@@ -1,3 +1,10 @@
+"----------PATHOGEN-
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+set background=light
+colorscheme solarized
 " ------------GENERAL-
 " add eosiolib to path
 set path+=/usr/local/eosio.wasmsdk/include
@@ -133,23 +140,11 @@ function! SetGPGOptions()
 	set foldopen=insert
 endfunction
 
-"---------SYNTASTIC-
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_cpp_check_header = 1
-let g:syntastic_cpp_include_dirs = ['/usr/local/eosio.wasmsdk/include','/home/eos/opt/boost/include','include']
-let g:syntastic_cpp_remove_include_errors=1
-let g:syntastic_enable_signs=1
+"---------------ALE-
+let b:ale_linters = {'cpp': ['clang-tidy']}
+let g:airline#extensions#ale#enabled = 1
+let g:ale_c_parse_compile_commands=1
+let g:ale_cpp_clangtidy_checks = ['-*']
+let g:ale_cpp_clangtidy_executable = "clang-tidy-4.0"
+"let g:ale_open_list = 0
 
-"----------PATHOGEN-
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
-set background=light
-colorscheme solarized

@@ -19,3 +19,6 @@
 [submodule "bundle/vim-tmux-navigator"]
 	path = bundle/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/w0rp/ale.git

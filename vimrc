@@ -6,8 +6,7 @@ filetype plugin indent on
 set background=dark
 colorscheme solarized
 " ------------GENERAL-
-" add eosiolib to path
-set path+=/usr/local/eosio.wasmsdk/include
+set clipboard=unnamedplus
 " use utf8 as default
 set encoding=utf-8
 " delete recursively with netrw

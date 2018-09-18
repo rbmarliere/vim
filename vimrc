@@ -6,6 +6,9 @@ filetype plugin indent on
 set background=dark
 colorscheme solarized
 " ------------GENERAL-
+" add eosiolib to path
+set path+=/usr/local/eosio.cdt/include
+" set clipboard
 set clipboard=unnamedplus
 " use utf8 as default
 set encoding=utf-8
@@ -26,8 +29,8 @@ set dir=$HOME/.vim/swp/
 set bdir=$HOME/.vim/bkp/
 " automatically re-read file changed outside vim
 set autoread
-" look for tags in .git/
-set tags+=.git/tags,tags,$HOME/.vim/eosiolib.tags,$HOME/.vim/help.tags
+" look for tags in custom locations
+set tags+=.git/tags,tags,$HOME/.vim/tags/eosio.tags
 " when searching a word, highlight it
 set hlsearch
 " highlight a searching word as you type it
@@ -140,10 +143,12 @@ function! SetGPGOptions()
 endfunction
 
 "---------------ALE-
-let b:ale_linters = {'cpp': ['clang-tidy']}
 let g:airline#extensions#ale#enabled = 1
 let g:ale_c_parse_compile_commands=1
-let g:ale_cpp_clangtidy_checks = ['-*']
-let g:ale_cpp_clangtidy_executable = "clang-tidy-4.0"
+let g:ale_cpp_clangtidy_executable = "/usr/bin/clang-tidy-4.0"
+let b:ale_linters = {'cpp': ['clang-tidy']}
+let g:ale_cpp_clangtidy_checks = ['boost-*', 'cert-*', 'clang-analyzer-*', 'cppcoreguidelines-*', 'misc-*', 'modernize-*', 'performance-*', 'readability-*']
+let g:ale_lint_on_save = 1
+let g:ale_lint_on_text_changed = 0
 "let g:ale_open_list = 0
 

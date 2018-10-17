@@ -5,6 +5,8 @@ syntax on
 filetype plugin indent on
 set background=dark
 colorscheme solarized
+" avoid tmux|screen transparency issues
+set t_Co=256
 " ------------GENERAL-
 " add eosiolib to path
 set path+=/usr/local/eosio.cdt/include

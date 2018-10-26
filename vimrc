@@ -84,6 +84,9 @@ nnoremap <expr><silent> _ v:count == 0 ? "<C-W>s<C-W><Down>"  : ":<C-U>normal! "
 nnoremap <silent> <Leader>fws :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 " https://gist.github.com/romainl/047aca21e338df7ccf771f96858edb86
 cnoremap <expr> <CR> CCR()
+" tab cfg switch
+nnoremap <Leader>chtaa :set tabstop=8 softtabstop=8 shiftwidth=8 nosmarttab noexpandtab<CR>
+nnoremap <Leader>chtab :set tabstop=4 softtabstop=4 shiftwidth=4 smarttab expandtab<CR>
 
 "------------FUNCTIONS-
 " make list-like commands more intuitive

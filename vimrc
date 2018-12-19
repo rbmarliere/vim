@@ -67,6 +67,8 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+nnoremap <Leader>st :tabe $MYVIMRC<CR>
+nnoremap <Leader>sz :source $MYVIMRC<CR>
 nnoremap <Leader>. :ls<CR>
 nnoremap <Leader><Space> :nohlsearch<CR>
 nnoremap <Leader>Q :qa<CR>

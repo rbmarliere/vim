@@ -155,11 +155,13 @@ endfunction
 "---------------ALE-
 let g:airline#extensions#ale#enabled = 1
 let g:ale_c_parse_compile_commands=1
-let g:ale_cpp_clangtidy_executable = "/usr/bin/clang-tidy-4.0"
+let g:ale_cpp_clangtidy_executable = "/usr/lib/llvm-7/bin/clang-tidy"
 let b:ale_linters = {'cpp': ['clang-tidy']}
 let g:ale_cpp_clangtidy_checks = ['boost-*', 'cert-*', 'clang-analyzer-*', 'cppcoreguidelines-*', 'misc-*', 'modernize-*', 'performance-*', 'readability-*']
 let g:ale_lint_on_save = 1
 let g:ale_lint_on_text_changed = 0
 let g:ale_cpp_clangtidy_options = '-x c++'
+let g:ale_cpp_gcc_options = '-std=c++14 -I/usr/local/eosio.cdt/include'
+"let g:ale_cpp_clang_options = '-std=c++14 '
 "let g:ale_open_list = 0
 

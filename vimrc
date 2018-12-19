@@ -8,6 +8,8 @@ colorscheme solarized
 " avoid tmux|screen transparency issues
 set t_Co=256
 " ------------GENERAL-
+" add mouse support
+set mouse=a
 " add eosiolib to path
 set path+=/usr/local/eosio.cdt/include
 " set clipboard

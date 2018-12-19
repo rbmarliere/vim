@@ -57,6 +57,7 @@ augroup abi
   au!
   autocmd BufNewFile,BufRead *.abi set filetype=json
 augroup END
+autocmd BufWritePost *.js AsyncRun -post=checktime ./node_modules/.bin/eslint --fix %
 
 "------------MAPPINGS-
 nnoremap - :Ex<CR>

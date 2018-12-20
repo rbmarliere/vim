@@ -10,8 +10,6 @@ set t_Co=256
 " ------------GENERAL-
 " add mouse support
 set mouse=a
-" add eosiolib to path
-set path+=/usr/local/eosio.cdt/include
 " set clipboard
 set clipboard=unnamedplus
 " use utf8 as default
@@ -69,7 +67,6 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <Leader>st :tabe $MYVIMRC<CR>
 nnoremap <Leader>sz :source $MYVIMRC<CR>
-nnoremap <Leader>. :ls<CR>
 nnoremap <Leader><Space> :nohlsearch<CR>
 nnoremap <Leader>Q :qa<CR>
 nnoremap <Leader>W :w !sudo tee % > /dev/null<CR>
@@ -155,13 +152,8 @@ endfunction
 "---------------ALE-
 let g:airline#extensions#ale#enabled = 1
 let g:ale_c_parse_compile_commands=1
-let g:ale_cpp_clangtidy_executable = "/usr/lib/llvm-7/bin/clang-tidy"
-let b:ale_linters = {'cpp': ['clang-tidy']}
-let g:ale_cpp_clangtidy_checks = ['boost-*', 'cert-*', 'clang-analyzer-*', 'cppcoreguidelines-*', 'misc-*', 'modernize-*', 'performance-*', 'readability-*']
-let g:ale_lint_on_save = 1
-let g:ale_lint_on_text_changed = 0
-let g:ale_cpp_clangtidy_options = '-x c++'
-let g:ale_cpp_gcc_options = '-std=c++14 -I/usr/local/eosio.cdt/include'
-"let g:ale_cpp_clang_options = '-std=c++14 '
-"let g:ale_open_list = 0
+let g:ale_linters = {'cpp': ['clang']}
+let g:ale_cpp_clang_executable = "/usr/local/eosio.cdt/bin/clang-7"
+let g:ale_cpp_clang_options = "-std=c++14 -ferror-limit=0 -I/usr/local/eosio.cdt/include -I/usr/local/eosio.cdt/include/libcxx -I/usr/local/eosio.cdt/include/libc"
+let g:ale_linters_explicit = 1
 

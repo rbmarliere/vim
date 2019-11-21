@@ -5,6 +5,8 @@ syntax on
 filetype plugin indent on
 set background=dark
 colorscheme solarized
+" path
+set path+=/usr/src/linux-next/include
 " avoid tmux|screen transparency issues
 set t_Co=256
 " ------------GENERAL-
@@ -17,7 +19,8 @@ set encoding=utf-8
 " delete recursively with netrw
 let g:netrw_localrmdir="rm -r"
 " tab spacing settings
-set tabstop=4 softtabstop=4 shiftwidth=4 smarttab expandtab
+set tabstop=8 softtabstop=8 shiftwidth=8 nosmarttab noexpandtab
+"set tabstop=4 softtabstop=4 shiftwidth=4 smarttab expandtab
 " activating line numbers
 set number
 " avoiding E21: Cannot make changes, 'Modifiable' is off
@@ -32,7 +35,7 @@ set bdir=$HOME/.vim/bkp/
 " automatically re-read file changed outside vim
 set autoread
 " look for tags in custom locations
-set tags+=.git/tags,tags,$HOME/.vim/tags/eosio.tags
+set tags+=.git/tags,tags,$HOME/.tags
 " when searching a word, highlight it
 set hlsearch
 " highlight a searching word as you type it
@@ -41,7 +44,7 @@ set incsearch
 set ignorecase
 set smartcase
 " hidden buffers
-set hidden
+"set hidden
 " setting default <Leader> as a comma
 let mapleader=' '
 " showing trailing spaces
@@ -58,6 +61,16 @@ augroup END
 autocmd BufWritePost *.js AsyncRun -post=checktime ./node_modules/.bin/eslint --fix %
 
 "------------MAPPINGS-
+nnoremap <Leader>1 1gt
+nnoremap <Leader>2 2gt
+nnoremap <Leader>3 3gt
+nnoremap <Leader>4 4gt
+nnoremap <Leader>5 5gt
+nnoremap <Leader>6 6gt
+nnoremap <Leader>7 7gt
+nnoremap <Leader>8 8gt
+nnoremap <Leader>9 9gt
+nnoremap <Leader>0 :tablast<CR>
 nnoremap - :Ex<CR>
 nnoremap 50 <C-W>=
 nnoremap <C-w><C-t> :tabe<CR>
@@ -69,14 +82,14 @@ nnoremap <Leader>st :tabe $MYVIMRC<CR>
 nnoremap <Leader>sz :source $MYVIMRC<CR>
 nnoremap <Leader><Space> :nohlsearch<CR>
 nnoremap <Leader>Q :qa<CR>
-nnoremap <Leader>W :w !sudo tee % > /dev/null<CR>
-nnoremap <Leader>h :vertical resize +5<CR>
-nnoremap <Leader>j :resize -5<CR>
-nnoremap <Leader>k :resize +5<CR>
-nnoremap <Leader>l :vertical resize -5<CR>
+nnoremap <Leader>H :vertical resize +5<CR>
+nnoremap <Leader>J :resize -5<CR>
+nnoremap <Leader>K :resize +5<CR>
+nnoremap <Leader>L :vertical resize -5<CR>
 nnoremap <Leader>rs :source ~/.vim/sessions/
 nnoremap <Leader>ss :mksession! ~/.vim/sessions/
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>W :w !sudo tee % > /dev/null<CR>
 nnoremap P :pu<CR>
 nnoremap Y y$
 " Use | and _ to split windows (while preserving original behaviour of [count]bar and [count]_).

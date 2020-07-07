@@ -23,6 +23,7 @@ let mapleader=' '
 set list listchars=tab:\~\ ,trail:~
 set statusline=%{expand('%:h')}/%t\ [%{strlen(&fenc)?&fenc:'none'},%{&ff}]\ %h%m%r%y%=%c,%l/%L\ %P
 set laststatus=2
+let g:python_recommended_style = 0
 
 nnoremap <Leader>1 1gt
 nnoremap <Leader>2 2gt
